@@ -6,8 +6,18 @@
     <description>Recent content in Posts on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Sep 2016 19:52:16 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 18 Sep 2016 20:13:14 -0500</lastBuildDate>
     <atom:link href="https://carlogilmar.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>prueba_dos</title>
+      <link>https://carlogilmar.github.io/post/prueba_dos/</link>
+      <pubDate>Sun, 18 Sep 2016 20:13:14 -0500</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/prueba_dos/</guid>
+      <description>&lt;p&gt;Esta es la segunda prueba para revisar mis deploY&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cuando abandoné Windows, y llegué a Linux</title>
