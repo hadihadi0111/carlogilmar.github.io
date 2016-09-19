@@ -6,7 +6,19 @@
     <description>Recent content on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jul 2015 09:51:51 -0400</lastBuildDate>
     <atom:link href="https://carlogilmar.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Me</title>
+      <link>https://carlogilmar.github.io/about/</link>
+      <pubDate>Tue, 28 Jul 2015 09:51:51 -0400</pubDate>
+      
+      <guid>https://carlogilmar.github.io/about/</guid>
+      <description>&lt;p&gt;This placeholder page could be your &amp;ldquo;about me&amp;rdquo; page, where you detail your contact information,
+portfolio pieces, and describe yourself and your goals.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
