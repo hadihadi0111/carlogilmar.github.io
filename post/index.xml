@@ -6,8 +6,105 @@
     <description>Recent content in Posts on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Sep 2016 19:52:16 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 26 Sep 2016 21:22:27 -0500</lastBuildDate>
     <atom:link href="https://carlogilmar.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Git para Principiantes</title>
+      <link>https://carlogilmar.github.io/post/git_para_principiantes/</link>
+      <pubDate>Mon, 26 Sep 2016 21:22:27 -0500</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/git_para_principiantes/</guid>
+      <description>
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;para-iniciar:93313a33eeb90da33e2de98160a6f396&#34;&gt;Para iniciar&amp;hellip;&lt;/h1&gt;
+
+&lt;p&gt;Recientemente he descubierto el gran y amplio mundo que implica el uso de la herramienta Git para proyectos de software.&lt;/p&gt;
+
+&lt;p&gt;Aún buscando entre tutoriales, y libros, el primer acercamiento es algo similar a lanzarse a un mar sin saber nadar, por ello mismo lo primero que hice fue hacer uso de la Facilitación Gráfica para poder contar con una historia que era Git y cómo funcionaba. Aquí va la primera entrega de lo que espero sean muchas.&lt;/p&gt;
+
+&lt;p&gt;Este querido amigo nos servirá para monitorear los archivos de un proyecto, y así controlar las versiones y avances.&lt;/p&gt;
+
+&lt;p&gt;Les presento al R2D2-Git y las funciones básicas para tenerlo funcionando en un proyecto.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/uno.jpg&#34; alt=&#34;Hola Git&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Git se ejecuta dentro de la carpeta principal de nuestro proyecto y reconoce TODO lo qué hay dentro.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/dos.jpg&#34; alt=&#34;Git init&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Entonces, a partir de ese momento ya no estarás solo en el desarrollo del proyecto, porque Git estará para apoyarte.&lt;/p&gt;
+
+&lt;p&gt;Git verá todos los archivos, pero es necesario indicarle los archivos que deseamos versionar.&lt;/p&gt;
+
+&lt;p&gt;Veamos como ir usando Git poco a poco.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;estado-de-los-archivos-que-monitorea-git:93313a33eeb90da33e2de98160a6f396&#34;&gt;ESTADO DE LOS ARCHIVOS QUE MONITOREA GIT&lt;/h1&gt;
+
+&lt;p&gt;Primero debemos preguntarle qué ve en nuestro proyecto el pequeño amigo Git, el hablara con la verdad y dirá cada archivo qué hay que no este monitoreando.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/tres.jpg&#34; alt=&#34;Status&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;dile-a-git-donde-poner-el-ojo:93313a33eeb90da33e2de98160a6f396&#34;&gt;DILE A GIT DONDE PONER EL OJO&lt;/h1&gt;
+
+&lt;p&gt;Una vez que sabemos el estado de aquello que no está monitoreando, podemos indicarle a Git qué archivo debe monitorear, podemos iniciar por uno.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/cuatro.jpg&#34; alt=&#34;Add&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Si volvemos a pedirle el STATUS, verás que ya no cuenta el archivo agregado.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;al-confesionario-con-git:93313a33eeb90da33e2de98160a6f396&#34;&gt;AL CONFESIONARIO CON GIT&lt;/h1&gt;
+
+&lt;p&gt;Una vez que Git ya está monitoreando el archivo, habrá que indicarle una descripción corta de qué es el archivo, qué se modificó, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/cinco.jpg&#34; alt=&#34;Commit&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;repetir:93313a33eeb90da33e2de98160a6f396&#34;&gt;REPETIR&lt;/h1&gt;
+
+&lt;p&gt;Si agregamos un archivo (ADD) dentro del proyecto, y le damos un COMMIT, entonces estará siendo monitoreado por Git. Es necesario ir agregando cada archivo a Git mediante el ADD-COMMIT.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/siete.jpg&#34; alt=&#34;Rutine&#34; /&gt;
+&lt;img src=&#34;https://carlogilmar.github.io/ocho.jpg&#34; alt=&#34;Rutine 2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Una vez que el STATUS no muestre ningún archivo, tendremos nuestro proyecto versionado bajo la mirada y el monitor de Git.&lt;/p&gt;
+
+&lt;p&gt;Si modificaramos un archivo, automáticamente el STATUS mostrará que hubo un cambio e indicará el archivo, de igual forma lo hará si se añaden nuevos archivos al proyecto.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/seis.jpg&#34; alt=&#34;Diff&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Es posible identificar las diferencias existentes en un archivo, bastará con indicarle a git.&lt;/p&gt;
+
+&lt;p&gt;Y finalmente aplicaremos el ADD y COMMIT para monitorearlo por Git.&lt;/p&gt;
+
+&lt;p&gt;Notarán que Git irá diciendo que está funcionando sobre algo llamado &amp;ldquo;Master&amp;rdquo;, que es la rama principal, y creada por defecto, que será tema para otra entrega.&lt;/p&gt;
+
+&lt;h1 id=&#34;review:93313a33eeb90da33e2de98160a6f396&#34;&gt;Review&lt;/h1&gt;
+
+&lt;p&gt;Comandos de esta publicación de Git&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git init //Para iniciar Git en tu proyecto
+
+git status //Para ver los archivos no monitoreados
+
+git add file.sm //Indicarle a git que contemple un archivo
+
+git commit -m &amp;quot;Descripcion&amp;quot; //Indicarle una descripcion del archivo agregado anteriormente
+
+git diff file.sm //Git te mostrará las modificaciones
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Cuando abandoné Windows, y llegué a Linux</title>
@@ -15,7 +112,72 @@
       <pubDate>Sun, 18 Sep 2016 19:52:16 -0500</pubDate>
       
       <guid>https://carlogilmar.github.io/post/prueba/</guid>
-      <description>&lt;p&gt;La siguiente es una historia de amor y desamor con los sistemas operativos.&lt;/p&gt;
+      <description>
+
+&lt;h1 id=&#34;como-llegue-a-linux:4d430bb41cc03d9fb5bb827615a64335&#34;&gt;Como llegue a Linux&lt;/h1&gt;
+
+&lt;p&gt;Es importante entender que en la vida siempre se puede escoger, y en el caso de la tecnología también. Quizá sea el hecho de que casi cualquier laptop o equipo de escritorio tengan por defecto Windows en sus muchas versiones, la paquetería de Office, el magnífico Paint y el buscaminas; y pareciera que nuestra elección se cierra a una búsqueda en Google que diga &amp;ldquo;programas gratis para Windows&amp;rdquo;.
+El asunto es que por alguna razón siempre mis equipos terminaban alentándose demasiado, de pronto se congelaba, me pedía actualizaciones, y cada instalación de algún programa era también una preocupación de no saber que virus o banner en el navegador pudiera instalar.&lt;/p&gt;
+
+&lt;p&gt;Así que algún día escuché sobre un sistema operativo diferente: Linux. Aunque encontré a una que otra persona que usara alguna distribución Linux, no encontré a alguna que únicamente usará Linux en su equipo.&lt;/p&gt;
+
+&lt;p&gt;Así que frustrado por la lentitud de Windows en mis equipos, decidí emprender una nueva aventura.&lt;/p&gt;
+
+&lt;h1 id=&#34;primeros-pasos-linux:4d430bb41cc03d9fb5bb827615a64335&#34;&gt;Primeros pasos Linux&lt;/h1&gt;
+
+&lt;p&gt;Temeroso de haber usado siempre Windows, instale en una partición la distribución Debían 8. La instalación fue sencilla, pero la configuración no. Afortunadamente todo lo podía buscar en Google; y aunque encontraba los pasos que solucionaban mis problemas siempre me dejaba un mal sabor de boca no saber qué demonios hacía con la consola.&lt;/p&gt;
+
+&lt;p&gt;La principal diferencia que notaba era el rendimiento: mi equipo iniciaba y se apagaba más rápido, abría el navegador con mayor rapidez, y contaba con una paquetería ofimática que aunque era básica contaba con todo lo indispensable.&lt;/p&gt;
+
+&lt;p&gt;Mi búsqueda por un mejor rendimiento me llevaba a dar una conclusión: Linux exige saber cómo opera, pero vale la pena.&lt;/p&gt;
+
+&lt;h1 id=&#34;primeros-rounds:4d430bb41cc03d9fb5bb827615a64335&#34;&gt;Primeros Rounds&lt;/h1&gt;
+
+&lt;p&gt;Con la camiseta puesta, y decidido por encontrar el SO que mejor me acomodara, instalé Ubuntu en mi equipo.&lt;/p&gt;
+
+&lt;p&gt;La primera batalla fue la instalación, y para mí se convirtió en el paso de la muerte porque temía dañar mi partición de respaldo, no comprendía porque necesitaba tantas particiones y porque no se instalaba solo.&lt;/p&gt;
+
+&lt;p&gt;El segundo round fue la configuración que requería instalar Java, y poner al día las famosas variables de entorno&amp;hellip; Pero desde la consola.&lt;/p&gt;
+
+&lt;p&gt;Uno más fue la configuración de la impresora, la mía afortunadamente es una HP, pero la solución requería de ejecutar scripts en la consola.&lt;/p&gt;
+
+&lt;p&gt;Y otro doloroso: en aquel tiempo usaba un iPhone, y no hay iTunes para ambientes Linux, por lo que me llevó a resucitar a Windows del mundo de los muertos pero en una máquina virtual, otro gran round.&lt;/p&gt;
+
+&lt;p&gt;Un golpe más al hígado: no se reconocen los drivers de todos los componentes como el que maneja el brillo de la pantalla. Esto requería de una buena guía y mucha suerte para que funcionara.&lt;/p&gt;
+
+&lt;h1 id=&#34;hallando-la-luz:4d430bb41cc03d9fb5bb827615a64335&#34;&gt;Hallando la luz&lt;/h1&gt;
+
+&lt;p&gt;Sin embargo a pesar de recibir los primeros golpes, poco a poco fui entiendo el ritmo de la batalla:&lt;/p&gt;
+
+&lt;p&gt;Para instalar por ejemplo Chrome ya no tenía que ir a su página, descargar, descomprimir, instalar, siguiente, siguiente, siguiente, aceptar; sino que bastaba con a lo más tres líneas de comandos en la consola para realizarlo, y eso ahorra mucho tiempo.&lt;/p&gt;
+
+&lt;p&gt;El entorno gráfico que instala Ubuntu por defecto (Unity) era muy pesado para mi equipo, pero para mi sorpresa pude instalar otros entornos mucho más ligeros como Gnome con los que el rendimiento aumentaba.&lt;/p&gt;
+
+&lt;p&gt;Conforme fui conociendo un poco más del SO, su sistema de ficheros, la configuración, y el uso de la consola, fui aprendiendo a sacarle mayor provecho.&lt;/p&gt;
+
+&lt;p&gt;Aprendí después sobre el uso de las diferentes shell ( zsh, fish, bash) y la gran rapidez que se puede ganar con el uso de la consola con algunas vitaminas como tmux, git y vim, y también a través de scripts.&lt;/p&gt;
+
+&lt;h1 id=&#34;del-amor-y-el-desamor:4d430bb41cc03d9fb5bb827615a64335&#34;&gt;Del amor y el desamor&lt;/h1&gt;
+
+&lt;p&gt;Finalmente puedo decir que al día de hoy soy muy feliz con Linux, y he llegado a las siguientes conclusiones:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Linux tiene todo lo necesario para vivir bien.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Carece aún de ciertas cosas como iTunes y Microsoft Office, lo cual puede ser solucionado con una virtualización.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Lo más grave que encontré fue la configuración de los controladores, aunque no es algo que no se pueda solucionar.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Los programas similares a la paquetería de Office no son Office y eso crea problemas con la compatibilidad, si escribes algo y lo guardas en formato odt seguramente podrá ser abierto por un Word, pero con una configuración diferente ( letra, paginación, márgenes). La solución: usar Google docs para evitar estos problemas.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Y finalmente puedo decir que UN GRAN PODER CONLLEVA UNA GRAN RESPONSABILIDAD. Linux es un SO muy poderoso, que exige conocimiento sobre su funcionamiento: comandos, uso de consola, sistema de archivos, particiones, instalación de programas, variables de entorno, etc. Pero en respuesta Linux ofrece un trabajo muy fluido.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Para mí que debía escribir muchos archivos de texto, navegar en internet, para cumplir con las tareas de sociología, pero además que debía instalar compiladores, entornos de desarrollo y editores de texto para programar, Linux me trato bien.&lt;/p&gt;
+
+&lt;p&gt;Eso sí, tiene problemas que no son tan sencillos de resolver si eres un usuario normal de Windows, que requieren de un entendimiento más profundo para poder resolverse.&lt;/p&gt;
+
+&lt;p&gt;A final de cuentas llevo 9 meses totalmente migrado a ambientes Linux, y a pesar de los malos ratos puedo decir que todo ha valido la pena.&lt;/p&gt;
 </description>
     </item>
     

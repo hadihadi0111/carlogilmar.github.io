@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="">
+    <meta property="og:title" content="Git para Principiantes">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2016-09-26">
+    
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://carlogilmar.github.io/post/git_para_principiantes/">
+    <meta property="og:site_name" content="Blog de Carlo Gilmar">
+    
+    <meta property="og:tags" content="Git">
+    
+    <meta name="generator" content="Hugo 0.16-DEV" />
+    <title>Git para Principiantes &middot; Blog de Carlo Gilmar</title>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="https://carlogilmar.github.io/css/style.css">
+    <link href="" rel="alternate" type="application/rss+xml" title="Blog de Carlo Gilmar" />
+
+    
+    
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top visible-xs">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+				<a class="navbar-brand" href="https://carlogilmar.github.io/">Carlo Gilmar</a>
+			
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				
+				
+					<li><a href="https://carlogilmar.github.io/about">About</a></li>
+				
+					<li><a href="https://carlogilmar.github.io/">Blog</a></li>
+				
+					<li><a href="https://carlogilmar.github.io/https://fb.com/carlogilmar">Facebook</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container-fluid">
+	<div class="row">
+		<div id="menu" class="hidden-xs col-sm-4 col-md-3">
+	<div id="menu-content" class="vertical-align">
+		
+			<h1 class="text-center"><a href="https://carlogilmar.github.io/">Carlo Gilmar</a></h1>
+		
+
+		
+			<small class="text-center center-block">¡Fail fast, learn fast!</small>
+		
+
+		
+    <a href="https://carlogilmar.github.io/"><img id="profile-pic" src="https://carlogilmar.github.io//profile.jpg" alt="My Picture" class="img-circle center-block"></a>
+		
+		<div id="social" class="text-center">
+			<a href="https://twitter.com/karlosins"><i class="fa fa-twitter fa-2x"></i></a>
+			
+			<a href="https://github.com/carlogilmar"><i class="fa fa-github fa-2x"></i></a>
+			<a href="mailto:carlogilmar12@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a>
+		</div>
+		<div id="links" class="text-center">
+			
+			
+				<a href="https://carlogilmar.github.io/about">About</a>
+			
+				<a href="https://carlogilmar.github.io/">Blog</a>
+			
+				<a href="https://carlogilmar.github.io/https://fb.com/carlogilmar">Facebook</a>
+			
+		</div>
+	</div>
+</div>
+
+		<div id="content" class="col-xs-12 col-sm-8 col-md-9">
+			<div class="row">
+				<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-8">
+
+<main>
+	<header>
+		<h1>Git para Principiantes</h1>
+	</header>
+
+	<article>
+		
+
+<hr />
+
+<h1 id="para-iniciar:93313a33eeb90da33e2de98160a6f396">Para iniciar&hellip;</h1>
+
+<p>Recientemente he descubierto el gran y amplio mundo que implica el uso de la herramienta Git para proyectos de software.</p>
+
+<p>Aún buscando entre tutoriales, y libros, el primer acercamiento es algo similar a lanzarse a un mar sin saber nadar, por ello mismo lo primero que hice fue hacer uso de la Facilitación Gráfica para poder contar con una historia que era Git y cómo funcionaba. Aquí va la primera entrega de lo que espero sean muchas.</p>
+
+<p>Este querido amigo nos servirá para monitorear los archivos de un proyecto, y así controlar las versiones y avances.</p>
+
+<p>Les presento al R2D2-Git y las funciones básicas para tenerlo funcionando en un proyecto.</p>
+
+<p><img src="/uno.jpg" alt="Hola Git" /></p>
+
+<p>Git se ejecuta dentro de la carpeta principal de nuestro proyecto y reconoce TODO lo qué hay dentro.</p>
+
+<p><img src="/dos.jpg" alt="Git init" /></p>
+
+<p>Entonces, a partir de ese momento ya no estarás solo en el desarrollo del proyecto, porque Git estará para apoyarte.</p>
+
+<p>Git verá todos los archivos, pero es necesario indicarle los archivos que deseamos versionar.</p>
+
+<p>Veamos como ir usando Git poco a poco.</p>
+
+<hr />
+
+<h1 id="estado-de-los-archivos-que-monitorea-git:93313a33eeb90da33e2de98160a6f396">ESTADO DE LOS ARCHIVOS QUE MONITOREA GIT</h1>
+
+<p>Primero debemos preguntarle qué ve en nuestro proyecto el pequeño amigo Git, el hablara con la verdad y dirá cada archivo qué hay que no este monitoreando.</p>
+
+<p><img src="/tres.jpg" alt="Status" /></p>
+
+<hr />
+
+<h1 id="dile-a-git-donde-poner-el-ojo:93313a33eeb90da33e2de98160a6f396">DILE A GIT DONDE PONER EL OJO</h1>
+
+<p>Una vez que sabemos el estado de aquello que no está monitoreando, podemos indicarle a Git qué archivo debe monitorear, podemos iniciar por uno.</p>
+
+<p><img src="/cuatro.jpg" alt="Add" /></p>
+
+<p>Si volvemos a pedirle el STATUS, verás que ya no cuenta el archivo agregado.</p>
+
+<hr />
+
+<h1 id="al-confesionario-con-git:93313a33eeb90da33e2de98160a6f396">AL CONFESIONARIO CON GIT</h1>
+
+<p>Una vez que Git ya está monitoreando el archivo, habrá que indicarle una descripción corta de qué es el archivo, qué se modificó, etc.</p>
+
+<p><img src="/cinco.jpg" alt="Commit" /></p>
+
+<hr />
+
+<h1 id="repetir:93313a33eeb90da33e2de98160a6f396">REPETIR</h1>
+
+<p>Si agregamos un archivo (ADD) dentro del proyecto, y le damos un COMMIT, entonces estará siendo monitoreado por Git. Es necesario ir agregando cada archivo a Git mediante el ADD-COMMIT.</p>
+
+<p><img src="/siete.jpg" alt="Rutine" />
+<img src="/ocho.jpg" alt="Rutine 2" /></p>
+
+<p>Una vez que el STATUS no muestre ningún archivo, tendremos nuestro proyecto versionado bajo la mirada y el monitor de Git.</p>
+
+<p>Si modificaramos un archivo, automáticamente el STATUS mostrará que hubo un cambio e indicará el archivo, de igual forma lo hará si se añaden nuevos archivos al proyecto.</p>
+
+<p><img src="/seis.jpg" alt="Diff" /></p>
+
+<p>Es posible identificar las diferencias existentes en un archivo, bastará con indicarle a git.</p>
+
+<p>Y finalmente aplicaremos el ADD y COMMIT para monitorearlo por Git.</p>
+
+<p>Notarán que Git irá diciendo que está funcionando sobre algo llamado &ldquo;Master&rdquo;, que es la rama principal, y creada por defecto, que será tema para otra entrega.</p>
+
+<h1 id="review:93313a33eeb90da33e2de98160a6f396">Review</h1>
+
+<p>Comandos de esta publicación de Git</p>
+
+<pre><code>git init //Para iniciar Git en tu proyecto
+
+git status //Para ver los archivos no monitoreados
+
+git add file.sm //Indicarle a git que contemple un archivo
+
+git commit -m &quot;Descripcion&quot; //Indicarle una descripcion del archivo agregado anteriormente
+
+git diff file.sm //Git te mostrará las modificaciones
+
+</code></pre>
+
+	</article>
+</main>
+
+<div id="bottom-nav" class="text-center center-block">
+	<a href=" https://carlogilmar.github.io/" class="btn btn-default"><i class="fa fa-home"></i> Home</a>
+</div>
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+  
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  
+  <script src="https://carlogilmar.github.io//js/App.js"></script>
+  
+</body>
+</html>
