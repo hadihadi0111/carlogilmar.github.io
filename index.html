@@ -97,6 +97,39 @@
 	<div class="panel panel-default">
 	<div class="panel-header">
 		<h3>
+			<a href="https://carlogilmar.github.io/post/vertx_mongo_web/">Connect Vertx with MongoDB using Groovy</a>
+			<br>
+			<small>
+				9 October 2016
+			</small>
+		</h3>
+	</div>
+	<div class="panel-body">
+		Create a Simple Connection With Vertx, MongoDB and Groovy You have to install VertX 3.3.3, Groovy, and Mongo DB. Create a simple groovy script Include the next imports import io.vertx.groovy.core.Vertx import io.vertx.groovy.ext.mongo.MongoClient Add the configuration for Mongo DB. def config = Vertx.currentContext().config() def uri = config.mongo_uri if (uri == null) { uri = &quot;mongodb://localhost:27017&quot; } def db = config.mongo_db if (db == null) { db = &quot;test&quot;//&lt;---------------database name } def mongoconfig = [ connection_string:uri, db_name:db ] def mongoClient = MongoClient.createShared(vertx, mongoconfig) Add some data in the script.
+		
+			... <a href="https://carlogilmar.github.io/post/vertx_mongo_web/">Read More</a>
+		
+	</div>
+	<div class="panel-footer">
+		
+		<small class="text-muted">
+			
+			
+				<a href="https://carlogilmar.github.io/tags/mongo"><span class="label label-success">mongo</span></a>
+			
+				<a href="https://carlogilmar.github.io/tags/vertx"><span class="label label-success">vertx</span></a>
+			
+				<a href="https://carlogilmar.github.io/tags/groovy"><span class="label label-success">groovy</span></a>
+			
+		</small>
+		
+	</div>
+</div>
+
+
+	<div class="panel panel-default">
+	<div class="panel-header">
+		<h3>
 			<a href="https://carlogilmar.github.io/post/git_para_principiantes/">Git para Principiantes</a>
 			<br>
 			<small>

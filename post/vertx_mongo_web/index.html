@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="">
+    <meta property="og:title" content="Connect Vertx with MongoDB using Groovy">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2016-10-09">
+    
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://carlogilmar.github.io/post/vertx_mongo_web/">
+    <meta property="og:site_name" content="Blog de Carlo Gilmar">
+    
+    <meta property="og:tags" content="mongo">
+    
+    <meta property="og:tags" content="vertx">
+    
+    <meta property="og:tags" content="groovy">
+    
+    <meta name="generator" content="Hugo 0.16-DEV" />
+    <title>Connect Vertx with MongoDB using Groovy &middot; Blog de Carlo Gilmar</title>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="https://carlogilmar.github.io/css/style.css">
+    <link href="" rel="alternate" type="application/rss+xml" title="Blog de Carlo Gilmar" />
+
+    
+    
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top visible-xs">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+				<a class="navbar-brand" href="https://carlogilmar.github.io/">Carlo Gilmar</a>
+			
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				
+				
+					<li><a href="https://carlogilmar.github.io/about">About</a></li>
+				
+					<li><a href="https://carlogilmar.github.io/">Blog</a></li>
+				
+					<li><a href="https://carlogilmar.github.io/https://fb.com/carlogilmar">Facebook</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container-fluid">
+	<div class="row">
+		<div id="menu" class="hidden-xs col-sm-4 col-md-3">
+	<div id="menu-content" class="vertical-align">
+		
+			<h1 class="text-center"><a href="https://carlogilmar.github.io/">Carlo Gilmar</a></h1>
+		
+
+		
+			<small class="text-center center-block">¡Fail fast, learn fast!</small>
+		
+
+		
+    <a href="https://carlogilmar.github.io/"><img id="profile-pic" src="https://carlogilmar.github.io//profile.jpg" alt="My Picture" class="img-circle center-block"></a>
+		
+		<div id="social" class="text-center">
+			<a href="https://twitter.com/karlosins"><i class="fa fa-twitter fa-2x"></i></a>
+			
+			<a href="https://github.com/carlogilmar"><i class="fa fa-github fa-2x"></i></a>
+			<a href="mailto:carlogilmar12@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a>
+		</div>
+		<div id="links" class="text-center">
+			
+			
+				<a href="https://carlogilmar.github.io/about">About</a>
+			
+				<a href="https://carlogilmar.github.io/">Blog</a>
+			
+				<a href="https://carlogilmar.github.io/https://fb.com/carlogilmar">Facebook</a>
+			
+		</div>
+	</div>
+</div>
+
+		<div id="content" class="col-xs-12 col-sm-8 col-md-9">
+			<div class="row">
+				<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-8">
+
+<main>
+	<header>
+		<h1>Connect Vertx with MongoDB using Groovy</h1>
+	</header>
+
+	<article>
+		
+
+<p><img src="/vertx.png" alt="vertx" /></p>
+
+<h5 id="create-a-simple-connection-with-vertx-mongodb-and-groovy:bf8d3581bc3d8f3b6b54bd261ed16da9">Create a Simple Connection With Vertx, MongoDB and Groovy</h5>
+
+<ul>
+<li><p>You have to install VertX 3.3.3, Groovy, and Mongo DB.</p></li>
+
+<li><p>Create a simple groovy script</p></li>
+
+<li><p>Include the next imports</p></li>
+</ul>
+
+<pre><code class="language-java">import io.vertx.groovy.core.Vertx
+import io.vertx.groovy.ext.mongo.MongoClient
+</code></pre>
+
+<ul>
+<li>Add the configuration for Mongo DB.</li>
+</ul>
+
+<pre><code class="language-java">	def config = Vertx.currentContext().config()
+
+	def uri = config.mongo_uri
+	if (uri == null) {
+		uri = &quot;mongodb://localhost:27017&quot;
+	}
+
+	def db = config.mongo_db
+	if (db == null) {
+	db = &quot;test&quot;//&lt;---------------database name
+	}
+
+	def mongoconfig = [
+	connection_string:uri,
+	db_name:db
+	]
+
+def mongoClient = MongoClient.createShared(vertx, mongoconfig)
+
+</code></pre>
+
+<ul>
+<li>Add some data in the script.</li>
+</ul>
+
+<pre><code class="language-java">def person1 = [
+	itemId:&quot;12345&quot;,
+	name:&quot;Carlo&quot;,
+	blog:&quot;carlogilmar12@gmail.com&quot;,
+	twitter:&quot;karlosins&quot;
+]
+</code></pre>
+
+<ul>
+<li>Use the mongo methods for save and find the data.</li>
+</ul>
+
+<pre><code class="language-java">mongoClient.save(&quot;people&quot;, person1, { id -&gt;
+		println(&quot;Inserted id: ${id.result()}&quot;)
+
+		mongoClient.find(&quot;people&quot;, [
+				itemId:&quot;12345&quot;
+		], { res -&gt;
+		println(&quot;Name is ${res.result()[0].name}&quot;)
+
+	})
+
+})
+</code></pre>
+
+<ul>
+<li>Please, run the script with <em>vertx run script.groovy</em></li>
+</ul>
+
+<p><img src="/vertxdb2.png" alt="vertx" /></p>
+
+<ul>
+<li>You need to consult your Mongo Server</li>
+</ul>
+
+<p><img src="/vertxdb1.png" alt="vertx" /></p>
+
+<h5 id="that-s-a-simple-way-for-connect-mongo-db-with-vertx-thats-the-script-complete:bf8d3581bc3d8f3b6b54bd261ed16da9">That&rsquo;s a simple way for connect Mongo Db with VertX, thats the script complete:</h5>
+
+<p><a href="https://github.com/carlogilmar/ExamplesVertx/blob/master/server.groovy">Script Complete</a></p>
+
+<h5 id="review-how-to-connect-vertx-and-mongo-with-groovy:bf8d3581bc3d8f3b6b54bd261ed16da9">REVIEW &ldquo;How to connect VertX and Mongo with Groovy&rdquo;</h5>
+
+<pre><code>1.- Include imports.
+2.- Add mongo configuration.
+3.- Add some data.
+4.- Use mongo methods.
+
+All at the same script.
+Run as: vertx run script.groovy 
+</code></pre>
+
+	</article>
+</main>
+
+<div id="bottom-nav" class="text-center center-block">
+	<a href=" https://carlogilmar.github.io/" class="btn btn-default"><i class="fa fa-home"></i> Home</a>
+</div>
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+  
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  
+  <script src="https://carlogilmar.github.io//js/App.js"></script>
+  
+</body>
+</html>

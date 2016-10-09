@@ -6,8 +6,115 @@
     <description>Recent content in Posts on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Sep 2016 21:22:27 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 09 Oct 2016 12:29:51 -0500</lastBuildDate>
     <atom:link href="https://carlogilmar.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Connect Vertx with MongoDB using Groovy</title>
+      <link>https://carlogilmar.github.io/post/vertx_mongo_web/</link>
+      <pubDate>Sun, 09 Oct 2016 12:29:51 -0500</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/vertx_mongo_web/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/vertx.png&#34; alt=&#34;vertx&#34; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;create-a-simple-connection-with-vertx-mongodb-and-groovy:bf8d3581bc3d8f3b6b54bd261ed16da9&#34;&gt;Create a Simple Connection With Vertx, MongoDB and Groovy&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;You have to install VertX 3.3.3, Groovy, and Mongo DB.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Create a simple groovy script&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Include the next imports&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;import io.vertx.groovy.core.Vertx
+import io.vertx.groovy.ext.mongo.MongoClient
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add the configuration for Mongo DB.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;	def config = Vertx.currentContext().config()
+
+	def uri = config.mongo_uri
+	if (uri == null) {
+		uri = &amp;quot;mongodb://localhost:27017&amp;quot;
+	}
+
+	def db = config.mongo_db
+	if (db == null) {
+	db = &amp;quot;test&amp;quot;//&amp;lt;---------------database name
+	}
+
+	def mongoconfig = [
+	connection_string:uri,
+	db_name:db
+	]
+
+def mongoClient = MongoClient.createShared(vertx, mongoconfig)
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add some data in the script.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;def person1 = [
+	itemId:&amp;quot;12345&amp;quot;,
+	name:&amp;quot;Carlo&amp;quot;,
+	blog:&amp;quot;carlogilmar12@gmail.com&amp;quot;,
+	twitter:&amp;quot;karlosins&amp;quot;
+]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use the mongo methods for save and find the data.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;mongoClient.save(&amp;quot;people&amp;quot;, person1, { id -&amp;gt;
+		println(&amp;quot;Inserted id: ${id.result()}&amp;quot;)
+
+		mongoClient.find(&amp;quot;people&amp;quot;, [
+				itemId:&amp;quot;12345&amp;quot;
+		], { res -&amp;gt;
+		println(&amp;quot;Name is ${res.result()[0].name}&amp;quot;)
+
+	})
+
+})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Please, run the script with &lt;em&gt;vertx run script.groovy&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/vertxdb2.png&#34; alt=&#34;vertx&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You need to consult your Mongo Server&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/vertxdb1.png&#34; alt=&#34;vertx&#34; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;that-s-a-simple-way-for-connect-mongo-db-with-vertx-thats-the-script-complete:bf8d3581bc3d8f3b6b54bd261ed16da9&#34;&gt;That&amp;rsquo;s a simple way for connect Mongo Db with VertX, thats the script complete:&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/carlogilmar/ExamplesVertx/blob/master/server.groovy&#34;&gt;Script Complete&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;review-how-to-connect-vertx-and-mongo-with-groovy:bf8d3581bc3d8f3b6b54bd261ed16da9&#34;&gt;REVIEW &amp;ldquo;How to connect VertX and Mongo with Groovy&amp;rdquo;&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;1.- Include imports.
+2.- Add mongo configuration.
+3.- Add some data.
+4.- Use mongo methods.
+
+All at the same script.
+Run as: vertx run script.groovy 
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Git para Principiantes</title>
