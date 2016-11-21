@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mongo on Blog de Carlo Gilmar</title>
-    <link>https://carlogilmar.github.io/tags/mongo/</link>
-    <description>Recent content in Mongo on Blog de Carlo Gilmar</description>
+    <title>Blog de Carlo Gilmar</title>
+    <link>https://carlogilmar.github.io/tags/mongo/index.xml</link>
+    <description>Recent content on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Oct 2016 12:29:51 -0500</lastBuildDate>
+    <copyright>@carlogilmar</copyright>
     <atom:link href="https://carlogilmar.github.io/tags/mongo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Connect Vertx with MongoDB using Groovy</title>
-      <link>https://carlogilmar.github.io/post/vertx_mongo_web/</link>
+      <link>https://carlogilmar.github.io/portfolio/vertx_mongo_web/</link>
       <pubDate>Sun, 09 Oct 2016 12:29:51 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/post/vertx_mongo_web/</guid>
+      <guid>https://carlogilmar.github.io/portfolio/vertx_mongo_web/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/vertx.png&#34; alt=&#34;vertx&#34; /&gt;&lt;/p&gt;
 
-&lt;h5 id=&#34;create-a-simple-connection-with-vertx-mongodb-and-groovy:bf8d3581bc3d8f3b6b54bd261ed16da9&#34;&gt;Create a Simple Connection With Vertx, MongoDB and Groovy&lt;/h5&gt;
+&lt;h5 id=&#34;create-a-simple-connection-with-vertx-mongodb-and-groovy&#34;&gt;Create a Simple Connection With Vertx, MongoDB and Groovy&lt;/h5&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;You have to install VertX 3.3.3, Groovy, and Mongo DB.&lt;/p&gt;&lt;/li&gt;
@@ -99,11 +99,11 @@ def mongoClient = MongoClient.createShared(vertx, mongoconfig)
 
 &lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/vertxdb1.png&#34; alt=&#34;vertx&#34; /&gt;&lt;/p&gt;
 
-&lt;h5 id=&#34;that-s-a-simple-way-for-connect-mongo-db-with-vertx-thats-the-script-complete:bf8d3581bc3d8f3b6b54bd261ed16da9&#34;&gt;That&amp;rsquo;s a simple way for connect Mongo Db with VertX, thats the script complete:&lt;/h5&gt;
+&lt;h5 id=&#34;that-s-a-simple-way-for-connect-mongo-db-with-vertx-thats-the-script-complete&#34;&gt;That&amp;rsquo;s a simple way for connect Mongo Db with VertX, thats the script complete:&lt;/h5&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/carlogilmar/ExamplesVertx/blob/master/server.groovy&#34;&gt;Script Complete&lt;/a&gt;&lt;/p&gt;
 
-&lt;h5 id=&#34;review-how-to-connect-vertx-and-mongo-with-groovy:bf8d3581bc3d8f3b6b54bd261ed16da9&#34;&gt;REVIEW &amp;ldquo;How to connect VertX and Mongo with Groovy&amp;rdquo;&lt;/h5&gt;
+&lt;h5 id=&#34;review-how-to-connect-vertx-and-mongo-with-groovy&#34;&gt;REVIEW &amp;ldquo;How to connect VertX and Mongo with Groovy&amp;rdquo;&lt;/h5&gt;
 
 &lt;pre&gt;&lt;code&gt;1.- Include imports.
 2.- Add mongo configuration.

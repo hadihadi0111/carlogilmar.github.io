@@ -2,19 +2,97 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog de Carlo Gilmar</title>
-    <link>https://carlogilmar.github.io/</link>
+    <link>https://carlogilmar.github.io/index.xml</link>
     <description>Recent content on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Oct 2016 14:04:47 -0500</lastBuildDate>
+    <copyright>@carlogilmar</copyright>
+    <lastBuildDate>Sun, 06 Nov 2016 13:00:25 +0530</lastBuildDate>
     <atom:link href="https://carlogilmar.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Get in touch</title>
+      <link>https://carlogilmar.github.io/contact/</link>
+      <pubDate>Sun, 06 Nov 2016 13:00:25 +0530</pubDate>
+      
+      <guid>https://carlogilmar.github.io/contact/</guid>
+      <description>&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;
+
+&lt;p&gt;Effects present letters inquiry no an removed or friends. Desire behind latter me though in. Supposing shameless am he engrossed up additions. My possible peculiar together to. Desire so better am cannot he up before points. Remember mistaken opinions it pleasure of debating. Court front maids forty if aware their at. Chicken use are pressed removed.&lt;/p&gt;
+
+&lt;p&gt;Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://carlogilmar.github.io/about/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>https://carlogilmar.github.io/about/</guid>
+      <description>
+
+&lt;p&gt;An sincerity so extremity he additions. Her yet &lt;strong&gt;there truth merit&lt;/strong&gt;. Mrs all projecting favourable now unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage strongly. Off can admiration prosperous now devonshire diminution law.&lt;/p&gt;
+
+&lt;p&gt;Received overcame oh sensible so at an. Formed do change merely to county it. &lt;strong&gt;Am separate contempt&lt;/strong&gt; domestic to to oh. On relation my so addition branched. Put hearing cottage she norland letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add him hill. No father living really people estate if. Mistake do produce beloved demesne if am pursuit.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/img/about.jpg&#34; alt=&#34;This is me&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;h4 id=&#34;education&#34;&gt;Education&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Name of the work 1</title>
+      <link>https://carlogilmar.github.io/portfolio/work1/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      
+      <guid>https://carlogilmar.github.io/portfolio/work1/</guid>
+      <description>&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>How to send Slack Messages with Groovy</title>
-      <link>https://carlogilmar.github.io/post/slack-webhook/</link>
+      <link>https://carlogilmar.github.io/portfolio/slack-webhook/</link>
       <pubDate>Sun, 09 Oct 2016 14:04:47 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/post/slack-webhook/</guid>
+      <guid>https://carlogilmar.github.io/portfolio/slack-webhook/</guid>
       <description>
 
 &lt;p&gt;Recently I have been searching projects for send messages to Slack Channel, and I found many purposes, but I had choose one, and I&amp;rsquo;ll show you how to use it. It&amp;rsquo;s very easy!&lt;/p&gt;
@@ -26,7 +104,8 @@
 &lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/slack1.png&#34; alt=&#34;Go to Slack&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Search and choose &amp;ldquo;Incoming WebHooks&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Search and choose &amp;ldquo;Incoming WebHooks&amp;rdquo;.
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/slack2.png&#34; alt=&#34;Go to Slack&#34; /&gt;&lt;/p&gt;
@@ -45,7 +124,7 @@
 
 &lt;p&gt;That&amp;rsquo;s all that we need, now we going to write the groovy script.&lt;/p&gt;
 
-&lt;h5 id=&#34;use-the-project-and-send-message-with-groovy:aec6b3eb98ca6fc849420374300a4104&#34;&gt;Use the Project and Send Message with Groovy&lt;/h5&gt;
+&lt;h5 id=&#34;use-the-project-and-send-message-with-groovy&#34;&gt;Use the Project and Send Message with Groovy&lt;/h5&gt;
 
 &lt;p&gt;You can find the original project here &lt;a href=&#34;https://github.com/ashwanthkumar/slack-java-webhook&#34;&gt;github&lt;/a&gt;, and you can find the author Ashwanth Kumar by &lt;a href=&#34;https://twitter.com/_ashwanthkumar&#34;&gt;twitter&lt;/a&gt;.&lt;/p&gt;
 
@@ -91,7 +170,7 @@ import in.ashwanthkumar.slack.webhook.SlackMessage
 
 &lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/slack5.png&#34; alt=&#34;Go to Slack&#34; /&gt;&lt;/p&gt;
 
-&lt;h5 id=&#34;try-this-example-and-thanks-ashwanthkumar:aec6b3eb98ca6fc849420374300a4104&#34;&gt;Try this example, and Thanks @_ashwanthkumar !&lt;/h5&gt;
+&lt;h5 id=&#34;try-this-example-and-thanks-ashwanthkumar&#34;&gt;Try this example, and Thanks @_ashwanthkumar !&lt;/h5&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/carlogilmar/Slack-Message-Groovy/blob/master/send.groovy&#34;&gt;GitHub Example&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -99,15 +178,15 @@ import in.ashwanthkumar.slack.webhook.SlackMessage
     
     <item>
       <title>Connect Vertx with MongoDB using Groovy</title>
-      <link>https://carlogilmar.github.io/post/vertx_mongo_web/</link>
+      <link>https://carlogilmar.github.io/portfolio/vertx_mongo_web/</link>
       <pubDate>Sun, 09 Oct 2016 12:29:51 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/post/vertx_mongo_web/</guid>
+      <guid>https://carlogilmar.github.io/portfolio/vertx_mongo_web/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/vertx.png&#34; alt=&#34;vertx&#34; /&gt;&lt;/p&gt;
 
-&lt;h5 id=&#34;create-a-simple-connection-with-vertx-mongodb-and-groovy:bf8d3581bc3d8f3b6b54bd261ed16da9&#34;&gt;Create a Simple Connection With Vertx, MongoDB and Groovy&lt;/h5&gt;
+&lt;h5 id=&#34;create-a-simple-connection-with-vertx-mongodb-and-groovy&#34;&gt;Create a Simple Connection With Vertx, MongoDB and Groovy&lt;/h5&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;You have to install VertX 3.3.3, Groovy, and Mongo DB.&lt;/p&gt;&lt;/li&gt;
@@ -187,11 +266,11 @@ def mongoClient = MongoClient.createShared(vertx, mongoconfig)
 
 &lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/vertxdb1.png&#34; alt=&#34;vertx&#34; /&gt;&lt;/p&gt;
 
-&lt;h5 id=&#34;that-s-a-simple-way-for-connect-mongo-db-with-vertx-thats-the-script-complete:bf8d3581bc3d8f3b6b54bd261ed16da9&#34;&gt;That&amp;rsquo;s a simple way for connect Mongo Db with VertX, thats the script complete:&lt;/h5&gt;
+&lt;h5 id=&#34;that-s-a-simple-way-for-connect-mongo-db-with-vertx-thats-the-script-complete&#34;&gt;That&amp;rsquo;s a simple way for connect Mongo Db with VertX, thats the script complete:&lt;/h5&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/carlogilmar/ExamplesVertx/blob/master/server.groovy&#34;&gt;Script Complete&lt;/a&gt;&lt;/p&gt;
 
-&lt;h5 id=&#34;review-how-to-connect-vertx-and-mongo-with-groovy:bf8d3581bc3d8f3b6b54bd261ed16da9&#34;&gt;REVIEW &amp;ldquo;How to connect VertX and Mongo with Groovy&amp;rdquo;&lt;/h5&gt;
+&lt;h5 id=&#34;review-how-to-connect-vertx-and-mongo-with-groovy&#34;&gt;REVIEW &amp;ldquo;How to connect VertX and Mongo with Groovy&amp;rdquo;&lt;/h5&gt;
 
 &lt;pre&gt;&lt;code&gt;1.- Include imports.
 2.- Add mongo configuration.
@@ -206,15 +285,15 @@ Run as: vertx run script.groovy
     
     <item>
       <title>Git para Principiantes</title>
-      <link>https://carlogilmar.github.io/post/git_para_principiantes/</link>
+      <link>https://carlogilmar.github.io/portfolio/git_para_principiantes/</link>
       <pubDate>Mon, 26 Sep 2016 21:22:27 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/post/git_para_principiantes/</guid>
+      <guid>https://carlogilmar.github.io/portfolio/git_para_principiantes/</guid>
       <description>
 
 &lt;hr /&gt;
 
-&lt;h1 id=&#34;para-iniciar:93313a33eeb90da33e2de98160a6f396&#34;&gt;Para iniciar&amp;hellip;&lt;/h1&gt;
+&lt;h1 id=&#34;para-iniciar&#34;&gt;Para iniciar&amp;hellip;&lt;/h1&gt;
 
 &lt;p&gt;Recientemente he descubierto el gran y amplio mundo que implica el uso de la herramienta Git para proyectos de software.&lt;/p&gt;
 
@@ -238,7 +317,7 @@ Run as: vertx run script.groovy
 
 &lt;hr /&gt;
 
-&lt;h1 id=&#34;estado-de-los-archivos-que-monitorea-git:93313a33eeb90da33e2de98160a6f396&#34;&gt;ESTADO DE LOS ARCHIVOS QUE MONITOREA GIT&lt;/h1&gt;
+&lt;h1 id=&#34;estado-de-los-archivos-que-monitorea-git&#34;&gt;ESTADO DE LOS ARCHIVOS QUE MONITOREA GIT&lt;/h1&gt;
 
 &lt;p&gt;Primero debemos preguntarle qué ve en nuestro proyecto el pequeño amigo Git, el hablara con la verdad y dirá cada archivo qué hay que no este monitoreando.&lt;/p&gt;
 
@@ -246,7 +325,7 @@ Run as: vertx run script.groovy
 
 &lt;hr /&gt;
 
-&lt;h1 id=&#34;dile-a-git-donde-poner-el-ojo:93313a33eeb90da33e2de98160a6f396&#34;&gt;DILE A GIT DONDE PONER EL OJO&lt;/h1&gt;
+&lt;h1 id=&#34;dile-a-git-donde-poner-el-ojo&#34;&gt;DILE A GIT DONDE PONER EL OJO&lt;/h1&gt;
 
 &lt;p&gt;Una vez que sabemos el estado de aquello que no está monitoreando, podemos indicarle a Git qué archivo debe monitorear, podemos iniciar por uno.&lt;/p&gt;
 
@@ -256,7 +335,7 @@ Run as: vertx run script.groovy
 
 &lt;hr /&gt;
 
-&lt;h1 id=&#34;al-confesionario-con-git:93313a33eeb90da33e2de98160a6f396&#34;&gt;AL CONFESIONARIO CON GIT&lt;/h1&gt;
+&lt;h1 id=&#34;al-confesionario-con-git&#34;&gt;AL CONFESIONARIO CON GIT&lt;/h1&gt;
 
 &lt;p&gt;Una vez que Git ya está monitoreando el archivo, habrá que indicarle una descripción corta de qué es el archivo, qué se modificó, etc.&lt;/p&gt;
 
@@ -264,7 +343,7 @@ Run as: vertx run script.groovy
 
 &lt;hr /&gt;
 
-&lt;h1 id=&#34;repetir:93313a33eeb90da33e2de98160a6f396&#34;&gt;REPETIR&lt;/h1&gt;
+&lt;h1 id=&#34;repetir&#34;&gt;REPETIR&lt;/h1&gt;
 
 &lt;p&gt;Si agregamos un archivo (ADD) dentro del proyecto, y le damos un COMMIT, entonces estará siendo monitoreado por Git. Es necesario ir agregando cada archivo a Git mediante el ADD-COMMIT.&lt;/p&gt;
 
@@ -283,7 +362,7 @@ Run as: vertx run script.groovy
 
 &lt;p&gt;Notarán que Git irá diciendo que está funcionando sobre algo llamado &amp;ldquo;Master&amp;rdquo;, que es la rama principal, y creada por defecto, que será tema para otra entrega.&lt;/p&gt;
 
-&lt;h1 id=&#34;review:93313a33eeb90da33e2de98160a6f396&#34;&gt;Review&lt;/h1&gt;
+&lt;h1 id=&#34;review&#34;&gt;Review&lt;/h1&gt;
 
 &lt;p&gt;Comandos de esta publicación de Git&lt;/p&gt;
 
@@ -303,13 +382,13 @@ git diff file.sm //Git te mostrará las modificaciones
     
     <item>
       <title>Cuando abandoné Windows, y llegué a Linux</title>
-      <link>https://carlogilmar.github.io/post/prueba/</link>
+      <link>https://carlogilmar.github.io/portfolio/prueba/</link>
       <pubDate>Sun, 18 Sep 2016 19:52:16 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/post/prueba/</guid>
+      <guid>https://carlogilmar.github.io/portfolio/prueba/</guid>
       <description>
 
-&lt;h1 id=&#34;como-llegue-a-linux:4d430bb41cc03d9fb5bb827615a64335&#34;&gt;Como llegue a Linux&lt;/h1&gt;
+&lt;h1 id=&#34;como-llegue-a-linux&#34;&gt;Como llegue a Linux&lt;/h1&gt;
 
 &lt;p&gt;Es importante entender que en la vida siempre se puede escoger, y en el caso de la tecnología también. Quizá sea el hecho de que casi cualquier laptop o equipo de escritorio tengan por defecto Windows en sus muchas versiones, la paquetería de Office, el magnífico Paint y el buscaminas; y pareciera que nuestra elección se cierra a una búsqueda en Google que diga &amp;ldquo;programas gratis para Windows&amp;rdquo;.
 El asunto es que por alguna razón siempre mis equipos terminaban alentándose demasiado, de pronto se congelaba, me pedía actualizaciones, y cada instalación de algún programa era también una preocupación de no saber que virus o banner en el navegador pudiera instalar.&lt;/p&gt;
@@ -318,7 +397,7 @@ El asunto es que por alguna razón siempre mis equipos terminaban alentándose d
 
 &lt;p&gt;Así que frustrado por la lentitud de Windows en mis equipos, decidí emprender una nueva aventura.&lt;/p&gt;
 
-&lt;h1 id=&#34;primeros-pasos-linux:4d430bb41cc03d9fb5bb827615a64335&#34;&gt;Primeros pasos Linux&lt;/h1&gt;
+&lt;h1 id=&#34;primeros-pasos-linux&#34;&gt;Primeros pasos Linux&lt;/h1&gt;
 
 &lt;p&gt;Temeroso de haber usado siempre Windows, instale en una partición la distribución Debían 8. La instalación fue sencilla, pero la configuración no. Afortunadamente todo lo podía buscar en Google; y aunque encontraba los pasos que solucionaban mis problemas siempre me dejaba un mal sabor de boca no saber qué demonios hacía con la consola.&lt;/p&gt;
 
@@ -326,7 +405,7 @@ El asunto es que por alguna razón siempre mis equipos terminaban alentándose d
 
 &lt;p&gt;Mi búsqueda por un mejor rendimiento me llevaba a dar una conclusión: Linux exige saber cómo opera, pero vale la pena.&lt;/p&gt;
 
-&lt;h1 id=&#34;primeros-rounds:4d430bb41cc03d9fb5bb827615a64335&#34;&gt;Primeros Rounds&lt;/h1&gt;
+&lt;h1 id=&#34;primeros-rounds&#34;&gt;Primeros Rounds&lt;/h1&gt;
 
 &lt;p&gt;Con la camiseta puesta, y decidido por encontrar el SO que mejor me acomodara, instalé Ubuntu en mi equipo.&lt;/p&gt;
 
@@ -340,7 +419,7 @@ El asunto es que por alguna razón siempre mis equipos terminaban alentándose d
 
 &lt;p&gt;Un golpe más al hígado: no se reconocen los drivers de todos los componentes como el que maneja el brillo de la pantalla. Esto requería de una buena guía y mucha suerte para que funcionara.&lt;/p&gt;
 
-&lt;h1 id=&#34;hallando-la-luz:4d430bb41cc03d9fb5bb827615a64335&#34;&gt;Hallando la luz&lt;/h1&gt;
+&lt;h1 id=&#34;hallando-la-luz&#34;&gt;Hallando la luz&lt;/h1&gt;
 
 &lt;p&gt;Sin embargo a pesar de recibir los primeros golpes, poco a poco fui entiendo el ritmo de la batalla:&lt;/p&gt;
 
@@ -352,7 +431,7 @@ El asunto es que por alguna razón siempre mis equipos terminaban alentándose d
 
 &lt;p&gt;Aprendí después sobre el uso de las diferentes shell ( zsh, fish, bash) y la gran rapidez que se puede ganar con el uso de la consola con algunas vitaminas como tmux, git y vim, y también a través de scripts.&lt;/p&gt;
 
-&lt;h1 id=&#34;del-amor-y-el-desamor:4d430bb41cc03d9fb5bb827615a64335&#34;&gt;Del amor y el desamor&lt;/h1&gt;
+&lt;h1 id=&#34;del-amor-y-el-desamor&#34;&gt;Del amor y el desamor&lt;/h1&gt;
 
 &lt;p&gt;Finalmente puedo decir que al día de hoy soy muy feliz con Linux, y he llegado a las siguientes conclusiones:&lt;/p&gt;
 
@@ -378,10 +457,10 @@ El asunto es que por alguna razón siempre mis equipos terminaban alentándose d
     
     <item>
       <title>Adiós Wordpress y Hola Hugo</title>
-      <link>https://carlogilmar.github.io/post/hi/</link>
+      <link>https://carlogilmar.github.io/portfolio/hi/</link>
       <pubDate>Sun, 18 Sep 2016 19:17:47 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/post/hi/</guid>
+      <guid>https://carlogilmar.github.io/portfolio/hi/</guid>
       <description>&lt;p&gt;&lt;em&gt;Hola Mundo&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Seguramente algunos habrán entrado a mi antiguo blog en CarloGilmar.Huelum.com, y pues ahora quedó indispuesto porque hallé a alguien mejor que Wordpress: Hugo.&lt;/p&gt;
@@ -393,14 +472,255 @@ El asunto es que por alguna razón siempre mis equipos terminaban alentándose d
     </item>
     
     <item>
-      <title>About Me</title>
-      <link>https://carlogilmar.github.io/about/</link>
-      <pubDate>Tue, 28 Jul 2015 09:51:51 -0400</pubDate>
+      <title>Name of the work 2</title>
+      <link>https://carlogilmar.github.io/portfolio/work2/</link>
+      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
-      <guid>https://carlogilmar.github.io/about/</guid>
-      <description>&lt;p&gt;This placeholder page could be your &amp;ldquo;about me&amp;rdquo; page, where you detail your contact information,
-portfolio pieces, and describe yourself and your goals.&lt;/p&gt;
-</description>
+      <guid>https://carlogilmar.github.io/portfolio/work2/</guid>
+      <description>&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Name of the work 3</title>
+      <link>https://carlogilmar.github.io/portfolio/work3/</link>
+      <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
+      
+      <guid>https://carlogilmar.github.io/portfolio/work3/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Item without image</title>
+      <link>https://carlogilmar.github.io/portfolio/work4/</link>
+      <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
+      
+      <guid>https://carlogilmar.github.io/portfolio/work4/</guid>
+      <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Name of the work 5</title>
+      <link>https://carlogilmar.github.io/portfolio/work5/</link>
+      <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
+      
+      <guid>https://carlogilmar.github.io/portfolio/work5/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Name of the work 6</title>
+      <link>https://carlogilmar.github.io/portfolio/work6/</link>
+      <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
+      
+      <guid>https://carlogilmar.github.io/portfolio/work6/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Name of the work 7</title>
+      <link>https://carlogilmar.github.io/portfolio/work7/</link>
+      <pubDate>Sat, 05 Nov 2016 19:57:40 +0530</pubDate>
+      
+      <guid>https://carlogilmar.github.io/portfolio/work7/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Name of the work 8</title>
+      <link>https://carlogilmar.github.io/portfolio/work8/</link>
+      <pubDate>Sat, 05 Nov 2016 19:59:22 +0530</pubDate>
+      
+      <guid>https://carlogilmar.github.io/portfolio/work8/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
     </item>
     
   </channel>
