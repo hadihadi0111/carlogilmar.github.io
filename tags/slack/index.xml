@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog de Carlo Gilmar</title>
-    <link>https://carlogilmar.github.io/tags/slack/index.xml</link>
-    <description>Recent content on Blog de Carlo Gilmar</description>
+    <title>Slack on Blog de Carlo Gilmar</title>
+    <link>https://carlogilmar.github.io/tags/slack/</link>
+    <description>Recent content in Slack on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>@carlogilmar</copyright>
+    <lastBuildDate>Sun, 09 Oct 2016 14:04:47 -0500</lastBuildDate>
     <atom:link href="https://carlogilmar.github.io/tags/slack/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -26,8 +26,7 @@
 &lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/slack1.png&#34; alt=&#34;Go to Slack&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Search and choose &amp;ldquo;Incoming WebHooks&amp;rdquo;.
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Search and choose &amp;ldquo;Incoming WebHooks&amp;rdquo;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://carlogilmar.github.io/slack2.png&#34; alt=&#34;Go to Slack&#34; /&gt;&lt;/p&gt;

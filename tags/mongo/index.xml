@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog de Carlo Gilmar</title>
-    <link>https://carlogilmar.github.io/tags/mongo/index.xml</link>
-    <description>Recent content on Blog de Carlo Gilmar</description>
+    <title>Mongo on Blog de Carlo Gilmar</title>
+    <link>https://carlogilmar.github.io/tags/mongo/</link>
+    <description>Recent content in Mongo on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>@carlogilmar</copyright>
+    <lastBuildDate>Sun, 09 Oct 2016 12:29:51 -0500</lastBuildDate>
     <atom:link href="https://carlogilmar.github.io/tags/mongo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -111,7 +111,7 @@ def mongoClient = MongoClient.createShared(vertx, mongoconfig)
 4.- Use mongo methods.
 
 All at the same script.
-Run as: vertx run script.groovy 
+Run as: vertx run script.groovy
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
