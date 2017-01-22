@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Slack on Blog de Carlo Gilmar</title>
-    <link>https://carlogilmar.github.io/tags/slack/</link>
-    <description>Recent content in Slack on Blog de Carlo Gilmar</description>
+    <title>Blog de Carlo Gilmar</title>
+    <link>https://carlogilmar.github.io/tags/slack/index.xml</link>
+    <description>Recent content on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Oct 2016 14:04:47 -0500</lastBuildDate>
+    <copyright>@carlogilmar</copyright>
     <atom:link href="https://carlogilmar.github.io/tags/slack/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
