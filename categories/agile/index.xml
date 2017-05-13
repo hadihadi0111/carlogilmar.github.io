@@ -6,10 +6,20 @@
     <description>Recent content in Agile on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Jul 2016 08:42:37 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 13 May 2017 00:47:38 -0500</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/categories/agile/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Workshop de Scrum en Upiicsa</title>
+      <link>https://carlogilmar.github.io/post/workshop-scrum/</link>
+      <pubDate>Sat, 13 May 2017 00:47:38 -0500</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/workshop-scrum/</guid>
+      <description>Esta historia tiene comienzo hace unas semanas, justo cuando me convertí en un participante del curso de principios de agilidad de Making Devs impartido por @neodevelop en DS Indigo.
+Además de realizar los registros visuales del curso, fui un testigo y observardor de las dinámicas y expresiones que iban surgiendo en los participantes, actividad que en lo personal creo que es muy laboriosa, pues observar requiere de prestar atención y aprender a mirar aquellos detalles que pueden parecer poco importantes pero que revelan muchas cosas bajo una mirada más a detalle y precisa.</description>
+    </item>
     
     <item>
       <title>Scrum Para Altos Directivos</title>
