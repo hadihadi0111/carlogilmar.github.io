@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Developer on Blog de Carlo Gilmar</title>
+    <link>https://carlogilmar.github.io/categories/developer/</link>
+    <description>Recent content in Developer on Blog de Carlo Gilmar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Jan 2017 22:51:32 -0600</lastBuildDate>
+    
+	<atom:link href="https://carlogilmar.github.io/categories/developer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Las herramientas básicas de un desarrollador de Software</title>
+      <link>https://carlogilmar.github.io/post/programmer/</link>
+      <pubDate>Tue, 17 Jan 2017 22:51:32 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/programmer/</guid>
+      <description>Hace poco recordaba sobre todo lo que he aprendido el los últimos seis meses como aprendiz de programador, entre estas reflexiones pensaba sobre los elementos básicos que debía tener cualquier persona que se quisiera dedicar enserio al desarrollo profesional de software.
+Creo que el tema da para muchísimos temas, pero uno fundamental del que quiero hablar es el de las herramientas. En este momento creo que la elección de tus herramientas de trabajo definen también el ritmo de tú trabajo.</description>
+    </item>
+    
+    <item>
+      <title>How to send Slack Messages with Groovy</title>
+      <link>https://carlogilmar.github.io/post/slack-webhook/</link>
+      <pubDate>Sun, 09 Oct 2016 14:04:47 -0500</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/slack-webhook/</guid>
+      <description>Recently I have been searching projects for send messages to Slack Channel, and I found many purposes, but I had choose one, and I&amp;rsquo;ll show you how to use it. It&amp;rsquo;s very easy!
+ First, you have to go to your slack team, and click on &amp;ldquo;Apps &amp;amp; Integrations&amp;rdquo;.   Search and choose &amp;ldquo;Incoming WebHooks&amp;rdquo;.   Add Configuration: choose a channel, and Add Integration.   You will get a Webhook URL.</description>
+    </item>
+    
+    <item>
+      <title>Connect Vertx with MongoDB using Groovy</title>
+      <link>https://carlogilmar.github.io/post/vertx_mongo_web/</link>
+      <pubDate>Sun, 09 Oct 2016 12:29:51 -0500</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/vertx_mongo_web/</guid>
+      <description>Create a Simple Connection With Vertx, MongoDB and Groovy  You have to install VertX 3.3.3, Groovy, and Mongo DB.
+ Create a simple groovy script
+ Include the next imports
+  import io.vertx.groovy.core.Vertx import io.vertx.groovy.ext.mongo.MongoClient   Add the configuration for Mongo DB.  def config = Vertx.currentContext().config() def uri = config.mongo_uri if (uri == null) { uri = &amp;quot;mongodb://localhost:27017&amp;quot; } def db = config.mongo_db if (db == null) { db = &amp;quot;test&amp;quot;//&amp;lt;---------------database name } def mongoconfig = [ connection_string:uri, db_name:db ] def mongoClient = MongoClient.</description>
+    </item>
+    
+  </channel>
+</rss>

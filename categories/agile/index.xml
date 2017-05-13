@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agile on Blog de Carlo Gilmar</title>
+    <link>https://carlogilmar.github.io/categories/agile/</link>
+    <description>Recent content in Agile on Blog de Carlo Gilmar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Jul 2016 08:42:37 -0600</lastBuildDate>
+    
+	<atom:link href="https://carlogilmar.github.io/categories/agile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scrum Para Altos Directivos</title>
+      <link>https://carlogilmar.github.io/post/scrumcourse/</link>
+      <pubDate>Mon, 18 Jul 2016 08:42:37 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/scrumcourse/</guid>
+      <description>Recientemente tuve la oportunidad de asistir a la charla de Scrum para Altos Ejecutivos y Directivos en Lymon. Ahora me toca compartir lo que aprendí a mi manera.
+SCRUM es un marco de trabajo ágil, quizá uno de los más populares, sin embargo regularmente es común hallar su ejecución en los equipos de desarrollo, no así en la parte directiva, y muy difícilmente a nivel organizacional. La pregunta más interesante es ¿cómo permear desde la zona operativa la esencia ágil de scrum hasta la parte organizacional?</description>
+    </item>
+    
+    <item>
+      <title>Agile Planet ScketchNotes Review</title>
+      <link>https://carlogilmar.github.io/post/agileplanet/</link>
+      <pubDate>Thu, 09 Jun 2016 08:53:18 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/agileplanet/</guid>
+      <description>The idea of this Lean Book is to be a travel guide to Agile Methods, this publication is a resume of many interesting topics.
+I think It&amp;rsquo;s very helpful to have a guide like this.
+Every topic has a little resume, and a drawing like this:
+I share with you my sketchnotes &amp;hellip;
+¡Visit LEAN PUB! You can find interesting books about agile topics&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Mi Primer Agile Open</title>
+      <link>https://carlogilmar.github.io/post/agileopen/</link>
+      <pubDate>Thu, 02 Jun 2016 09:01:50 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/agileopen/</guid>
+      <description>Este śabado tuve la oportunidad de poder participar en el Agile Open 2016 organizado por la comunidad de Ágiles México, pensaba escribir un largo y emotivo texto, pero ya que tengo tiempo libre lo intentare explicar con Facilitación Gráfica, ¡a ver que tal me sale!
+Aquí va la primera imagen&amp;hellip; ¿Qué es un Agile Open? ¿Cuáles son los principios básicos y la regla de los dos pies?
+¡Inicia el Agile Open 2016!</description>
+    </item>
+    
+    <item>
+      <title>Mi Primer Proyecto Ágil</title>
+      <link>https://carlogilmar.github.io/post/proyectoagil/</link>
+      <pubDate>Sun, 20 Mar 2016 09:04:47 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/proyectoagil/</guid>
+      <description>En una materia de mi carrera me pidieron armar un equipo y pensar en una idea a desarrollar&amp;hellip; la materia es Construcción de Base de Datos.
+Como recientemente estoy introduciéndome al mundo ágil decidí que esta era la oportunidad de empezar a vivir la agilidad. El primer reto era convencer a mis dos compañeros de equipo que aprender Metodologías Ágiles sería una forma super padre de aprender y hacer algo chido.</description>
+    </item>
+    
+  </channel>
+</rss>

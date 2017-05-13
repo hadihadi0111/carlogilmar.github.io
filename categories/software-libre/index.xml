@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Libre on Blog de Carlo Gilmar</title>
+    <link>https://carlogilmar.github.io/categories/software-libre/</link>
+    <description>Recent content in Software Libre on Blog de Carlo Gilmar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Mar 2016 09:13:50 -0600</lastBuildDate>
+    
+	<atom:link href="https://carlogilmar.github.io/categories/software-libre/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ponencia de Software Libre para UPIICSA</title>
+      <link>https://carlogilmar.github.io/post/exposwlibre/</link>
+      <pubDate>Fri, 18 Mar 2016 09:13:50 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/exposwlibre/</guid>
+      <description>Aquí comparto una ponencia que prensenté el año pasado en Upiicsa, con apoyo de tres profesores que me cederieron sus clases, sobre el uso del Software Libre y algunas de sus bondades que podríamos usar.
+Dudas, aclaraciones, comentarios también en carlogilmar12@gmail.com
+http://www.slideshare.net/karlogilmar1/ponencia-para-ipn-upiicsa</description>
+    </item>
+    
+  </channel>
+</rss>

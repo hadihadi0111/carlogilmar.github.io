@@ -2,78 +2,165 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://carlogilmar.github.io/</loc>
+    <loc>https://carlogilmar.github.io/post/agiledaypuebla/</loc>
     <lastmod>2017-01-22T15:45:11-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/portfolio/agileDayPuebla/</loc>
-    <lastmod>2017-01-22T15:45:11-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlogilmar.github.io/portfolio/programmer/</loc>
+    <loc>https://carlogilmar.github.io/post/programmer/</loc>
     <lastmod>2017-01-17T22:51:32-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/contact/</loc>
-    <lastmod>2016-11-06T13:00:25+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlogilmar.github.io/about/</loc>
-    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlogilmar.github.io/portfolio/slack-webhook/</loc>
+    <loc>https://carlogilmar.github.io/post/slack-webhook/</loc>
     <lastmod>2016-10-09T14:04:47-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/portfolio/vertx_mongo_web/</loc>
+    <loc>https://carlogilmar.github.io/post/vertx_mongo_web/</loc>
     <lastmod>2016-10-09T12:29:51-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/portfolio/git_para_principiantes/</loc>
+    <loc>https://carlogilmar.github.io/post/git_para_principiantes/</loc>
     <lastmod>2016-09-26T21:22:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/portfolio/prueba/</loc>
+    <loc>https://carlogilmar.github.io/post/prueba/</loc>
     <lastmod>2016-09-18T19:52:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/portfolio/hi/</loc>
+    <loc>https://carlogilmar.github.io/post/hi/</loc>
     <lastmod>2016-09-18T19:17:47-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/portfolio/ScrumCourse/</loc>
+    <loc>https://carlogilmar.github.io/post/scrumcourse/</loc>
     <lastmod>2016-07-18T08:42:37-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/portfolio/AgilePlanet/</loc>
+    <loc>https://carlogilmar.github.io/post/agileplanet/</loc>
     <lastmod>2016-06-09T08:53:18-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/portfolio/AgileOpen/</loc>
+    <loc>https://carlogilmar.github.io/post/agileopen/</loc>
     <lastmod>2016-06-02T09:01:50-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/portfolio/ProyectoAgil/</loc>
+    <loc>https://carlogilmar.github.io/post/proyectoagil/</loc>
     <lastmod>2016-03-20T09:04:47-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/portfolio/ExpoSWLibre/</loc>
+    <loc>https://carlogilmar.github.io/post/exposwlibre/</loc>
     <lastmod>2016-03-18T09:13:50-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/categories/agile/</loc>
+    <lastmod>2016-07-18T08:42:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/tags/agileopen/</loc>
+    <lastmod>2016-06-02T09:01:50-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/</loc>
+    <lastmod>2017-01-22T15:45:11-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/categories/</loc>
+    <lastmod>2016-07-18T08:42:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/categories/developer/</loc>
+    <lastmod>2017-01-17T22:51:32-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/tags/git/</loc>
+    <lastmod>2016-09-26T21:22:27-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/categories/git/</loc>
+    <lastmod>2016-09-26T21:22:27-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/tags/groovy/</loc>
+    <lastmod>2016-10-09T14:04:47-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/tags/linux/</loc>
+    <lastmod>2016-09-18T19:52:16-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/post/</loc>
+    <lastmod>2017-01-22T15:45:11-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/tags/project/</loc>
+    <lastmod>2016-03-20T09:04:47-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/tags/scrum/</loc>
+    <lastmod>2016-07-18T08:42:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/tags/slack/</loc>
+    <lastmod>2016-10-09T14:04:47-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/categories/software-libre/</loc>
+    <lastmod>2016-03-18T09:13:50-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/tags/</loc>
+    <lastmod>2016-06-02T09:01:50-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/tags/tools/</loc>
+    <lastmod>2017-01-17T22:51:32-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/tags/vertx/</loc>
+    <lastmod>2016-10-09T12:29:51-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

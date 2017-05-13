@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Blog de Carlo Gilmar</title>
+    <link>https://carlogilmar.github.io/categories/</link>
+    <description>Recent content in Categories on Blog de Carlo Gilmar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Jul 2016 08:42:37 -0600</lastBuildDate>
+    
+	<atom:link href="https://carlogilmar.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Agile</title>
+      <link>https://carlogilmar.github.io/categories/agile/</link>
+      <pubDate>Mon, 18 Jul 2016 08:42:37 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/categories/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developer</title>
+      <link>https://carlogilmar.github.io/categories/developer/</link>
+      <pubDate>Tue, 17 Jan 2017 22:51:32 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/categories/developer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://carlogilmar.github.io/categories/git/</link>
+      <pubDate>Mon, 26 Sep 2016 21:22:27 -0500</pubDate>
+      
+      <guid>https://carlogilmar.github.io/categories/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Libre</title>
+      <link>https://carlogilmar.github.io/categories/software-libre/</link>
+      <pubDate>Fri, 18 Mar 2016 09:13:50 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/categories/software-libre/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
