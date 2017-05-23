@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Registros Gráficos on Blog de Carlo Gilmar</title>
+    <link>https://carlogilmar.github.io/tags/registros-gr%C3%A1ficos/</link>
+    <description>Recent content in Registros Gráficos on Blog de Carlo Gilmar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 May 2017 18:41:12 -0500</lastBuildDate>
+    
+	<atom:link href="https://carlogilmar.github.io/tags/registros-gr%C3%A1ficos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>De la práctica en los Registros Visuales</title>
+      <link>https://carlogilmar.github.io/post/registros-graficos/</link>
+      <pubDate>Mon, 22 May 2017 18:41:12 -0500</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/registros-graficos/</guid>
+      <description>Hace poco más de un año asistí a un Meetup de la comunidad de Ágiles México. Era el segundo al que asistía , en esta ocasión el tema fue sobre Facilitación Gráfica por @fperezguajardo.
+A partir de ese momento descubrí lo importante que era para mí explorar más a fondo la creatividad por medio de dibujos, formas y colores. Siempre he sido una persona que raya libros con plumones, a la que le gusta llenar los cuadernos con rayones, claro, a pesar de no ser un gran dibujante.</description>
+    </item>
+    
+  </channel>
+</rss>
