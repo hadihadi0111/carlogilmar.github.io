@@ -3,19 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>How to send Slack Messages with Groovy</title>
+<title>Develop with VertX</title>
 <meta name="description" content="Espacio para compartir conocimiento">
 <meta name="generator" content="Hugo 0.20.7" />
-<meta property="og:title" content="How to send Slack Messages with Groovy" />
-<meta property="og:description" content="Recently I have been searching projects for send messages to Slack Channel, and I found many purposes, but I had choose one, and I&rsquo;ll show you how to use it. It&rsquo;s very easy!
- First, you have to go to your slack team, and click on &ldquo;Apps &amp; Integrations&rdquo;.   Search and choose &ldquo;Incoming WebHooks&rdquo;.   Add Configuration: choose a channel, and Add Integration.   You will get a Webhook URL." />
+<meta property="og:title" content="Develop with VertX" />
+<meta property="og:description" content="This was a post writted for Making Devs Blog. Recently we use the project Vertx for develop a project. Now I&rsquo;m going to talk about the basic functionality.
+ VertX is a tool-kit for building reactive applications on the JVM.
+ It has many interesting features:
+ Actor model based. It&rsquo;s polyglot: you can use with Java, Groovy, Ruby, Scala, Ceylon, Javascript, and Kotlin.  Verticles For the beginning it&rsquo;s important know that VertX has a nervous system called Event Bus, where you can write and run Verticles." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://carlogilmar.github.io/post/slack-webhook/" />
+<meta property="og:url" content="https://carlogilmar.github.io/post/vertx-basic/" />
 
 
 
-<meta property="article:published_time" content="2016-10-09T14:04:47-05:00"/>
-<meta property="article:modified_time" content="2016-10-09T14:04:47-05:00"/>
+<meta property="article:published_time" content="2017-07-25T22:54:16-05:00"/>
+<meta property="article:modified_time" content="2017-07-25T22:54:16-05:00"/>
 
 
 
@@ -64,106 +66,100 @@
 <div class="main-content content" role="main" itemprop="mainContentOfPage">
 	<article class="post">
 		<header class="post__header clearfix">
-			<h1 class="post__title">How to send Slack Messages with Groovy</h1>
+			<h1 class="post__title">Develop with VertX</h1>
 			<p class="post__meta meta">
 				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-				<time class="post__meta-date" datetime="2016-10-09 14:04:47 -0500 CDT">October 09, 2016</time>
+				<time class="post__meta-date" datetime="2017-07-25 22:54:16 -0500 CDT">July 25, 2017</time>
 				<span class="post__meta-categories meta-categories">
 					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-					<a class="meta-categories__link" href="/categories/developer" rel="category">Developer</a></span>
+					<a class="meta-categories__link" href="/categories/groovy" rel="category">Groovy</a></span>
 			</p>
 		</header>
 		<div class="post__content clearfix">
 			<figure class="post__thumbnail">
-				<img src="https://carlogilmar.github.io/slack3.png" alt="How to send Slack Messages with Groovy">
+				<img src="https://carlogilmar.github.io/blog/vertx/vertx1.png" alt="Develop with VertX">
 			</figure>
 			
 
-<p>Recently I have been searching projects for send messages to Slack Channel, and I found many purposes, but I had choose one, and I&rsquo;ll show you how to use it. It&rsquo;s very easy!</p>
+<h3 id="this-was-a-post-writted-for-making-devs-blog">This was a post writted for <strong>Making Devs Blog</strong>.</h3>
+
+<p>Recently we use the project <strong>Vertx</strong> for develop a project. Now I&rsquo;m going to talk about the basic functionality.</p>
+
+<blockquote>
+<p>VertX is a tool-kit for building reactive applications on the <strong>JVM</strong>.</p>
+</blockquote>
+
+<p>It has many interesting features:</p>
+
+<ol>
+<li>Actor model based.</li>
+<li>It&rsquo;s polyglot: you can use with Java, <strong>Groovy</strong>, Ruby, Scala, Ceylon, Javascript, and Kotlin.</li>
+</ol>
+
+<h3 id="verticles">Verticles</h3>
+
+<p>For the beginning it&rsquo;s important know that VertX has a nervous system called <strong>Event Bus</strong>, where you can write and run <strong>Verticles</strong>.</p>
+
+<blockquote>
+<p><strong>Verticles</strong> are chunks of code that get deployed and run by Vert.x.</p>
+</blockquote>
+
+<p>In groovy, a verticle is called <strong>consumer</strong>.</p>
+
+<p>Every verticle have an identifier, it&rsquo;s only a <strong>String</strong>. It could be deployed on a script or a class, and into him you can receive a message from another part of the Event Bus, and send a reply.</p>
+
+<p>A Vertx Verticle:</p>
 
 <ul>
-<li>First, you have to go to your slack team, and click on &ldquo;Apps &amp; Integrations&rdquo;.</li>
-</ul>
-
-<p><img src="/slack1.png" alt="Go to Slack" /></p>
-
-<ul>
-<li>Search and choose &ldquo;Incoming WebHooks&rdquo;.</li>
-</ul>
-
-<p><img src="/slack2.png" alt="Go to Slack" /></p>
+<li>Run on the event bus.</li>
+<li>Have a address identifier (string)</li>
+<li>Have a deployment ID (deployment identifier)
 
 <ul>
-<li>Add Configuration: choose a channel, and Add Integration.</li>
+<li>It can receive a message and send a reply to the same message</li>
+<li>It can send message for other verticles</li>
+</ul></li>
 </ul>
 
-<p><img src="/slack3.png" alt="Go to Slack" /></p>
+<p><img src="/blog/vertx/vertx1.png" alt="" /></p>
 
-<ul>
-<li>You will get a Webhook URL.</li>
-</ul>
+<p>A simple groovy consumer:</p>
 
-<p><img src="/slack4.png" alt="Go to Slack" /></p>
+<script src="//gist.github.com/carlogilmar/cd95ccc0836f07e4df0b1853a8df0ba3.js"></script>
 
-<p>That&rsquo;s all that we need, now we going to write the groovy script.</p>
+<h3 id="deploy-verticles">Deploy Verticles</h3>
 
-<h5 id="use-the-project-and-send-message-with-groovy">Use the Project and Send Message with Groovy</h5>
+<p>The <strong>verticles</strong> can be deployed for be available on the event bus. When a <strong>verticle</strong> be deployed, it will be available on the Event Bus. You can deploy one consumer, or N instances of the same consumer.</p>
 
-<p>You can find the original project here <a href="https://github.com/ashwanthkumar/slack-java-webhook">github</a>, and you can find the author Ashwanth Kumar by <a href="https://twitter.com/_ashwanthkumar">twitter</a>.</p>
+<p><img src="/blog/vertx/vertx2.png" alt="" /></p>
 
-<ul>
-<li><p>Create a simple groovy script.</p></li>
+<h3 id="sending-messages">Sending Messages</h3>
 
-<li><p>Add the project</p></li>
-</ul>
+<p>You can send messages to verticle trough the verticle&rsquo;s address. And it could be point to point, or a broadcast. With this simple concepts we can make a simple design using VertX verticles.</p>
 
-<pre><code class="language-java">@Grapes(
-  @Grab(group='in.ashwanthkumar', module='slack-java-webhook', version='0.0.7')
-		)
+<p>Ping-Pong simple example.</p>
 
-import in.ashwanthkumar.slack.webhook.Slack
-import in.ashwanthkumar.slack.webhook.SlackMessage
-</code></pre>
+<script src="//gist.github.com/carlogilmar/14103ad6243d1dbc7f7be062e798958f.js"></script>
 
-<ul>
-<li>Add yout WebHook URL</li>
-</ul>
+<p><img src="/blog/vertx/vertx3.png" alt="" /></p>
 
-<pre><code class="language-java">def webhookUrl = &quot;http:/webhokks.tag.something&quot;
+<p>This are only the basics concepts of VertX, because this toolkit is much bigger and useful.</p>
 
-</code></pre>
+<p>You can learn more on VertX site <a href="http://vertx.io/docs/">Vertx Site</a></p>
 
-<ul>
-<li>Add a simple method from Original Project, with:</li>
-</ul>
+<p>Visit the <a href="https://groups.google.com/forum/#!forum/vertx"> VertX Google Group </a></p>
 
-<pre><code class="language-java">new Slack(webhookUrl)//
-	.icon(&quot;:bangbang:&quot;) // Emoji
-	.sendToChannel(&quot;General&quot;) //&lt;-------------------Slack Channel
-	.displayName(&quot;Bot de Prueba&quot;) &lt;----------------Bot Name
-	.push(new SlackMessage(&quot;Salu2 &quot;).bold(&quot;Soy el Bot&quot;));&lt;---------Message
+<p>Thanks for reading.</p>
 
-</code></pre>
-
-<ul>
-<li><p>Run the script as <em>groovy script.groovy</em></p></li>
-
-<li><p>Check your message at Slack</p></li>
-</ul>
-
-<p><img src="/slack5.png" alt="Go to Slack" /></p>
-
-<h5 id="try-this-example-and-thanks-ashwanthkumar">Try this example, and Thanks @_ashwanthkumar !</h5>
-
-<p><a href="https://github.com/carlogilmar/Slack-Message-Groovy/blob/master/send.groovy">GitHub Example</a></p>
+<p>@carlogilmar</p>
 
 		</div>
 		
 <div class="post__tags tags clearfix">
 	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.73135 3.3795002q0-.5597-.39604-.9557-.39604-.3961-.95577-.3961-.55974 0-.95578.3961-.39604.396-.39604.9557 0 .5598.39604.9558.39604.3961.95578.3961.55973 0 .95577-.3961.39604-.396.39604-.9558zm11.26865 6.0832q0 .5596998-.39076.9504998l-5.18548 5.196q-.41188.3908-.9610504.3908-.55974 0-.9505-.3908l-7.5511496-7.5616998q-.40132-.3907-.68119-1.0666-.27987-.6759-.27987-1.2357v-4.3934q0-.54920004.40132-.95050004.40132-.4013.9505-.4013h4.39339q.55974 0 1.23565.2799.67591.2798 1.07723.6812l7.55115 7.54060004q.39076.4118.39076.961z"/></svg>
 	<ul class="tags__list">
-		<li class="tags__item"><a class="tags__link" href="/tags/slack/" rel="tag">Slack</a></li>
-		<li class="tags__item"><a class="tags__link" href="/tags/groovy/" rel="tag">Groovy</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/vertx/" rel="tag">vertx</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/groovy/" rel="tag">groovy</a></li>
 	</ul>
 </div>
 
@@ -183,10 +179,7 @@ import in.ashwanthkumar.slack.webhook.SlackMessage
 	
 <nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 	<div class="post-nav__item post-nav__item--prev col-1-2">
-		<a class="post-nav__link" href="https://carlogilmar.github.io/post/vertx_mongo_web/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">Connect Vertx with MongoDB using Groovy</p></a>
-	</div>
-	<div class="post-nav__item post-nav__item--next col-1-2">
-		<a class="post-nav__link" href="https://carlogilmar.github.io/post/programmer/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">Las herramientas básicas de un desarrollador de Software</p></a>
+		<a class="post-nav__link" href="https://carlogilmar.github.io/post/registros-graficos/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">De la práctica en los Registros Visuales</p></a>
 	</div>
 </nav>
 
@@ -195,9 +188,9 @@ import in.ashwanthkumar.slack.webhook.SlackMessage
 	<div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'carlogilmar-github-io';
-    var disqus_identifier = 'https:\/\/carlogilmar.github.io\/post\/slack-webhook\/';
-    var disqus_title = 'How to send Slack Messages with Groovy';
-    var disqus_url = 'https:\/\/carlogilmar.github.io\/post\/slack-webhook\/';
+    var disqus_identifier = 'https:\/\/carlogilmar.github.io\/post\/vertx-basic\/';
+    var disqus_title = 'Develop with VertX';
+    var disqus_url = 'https:\/\/carlogilmar.github.io\/post\/vertx-basic\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
