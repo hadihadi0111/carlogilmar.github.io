@@ -6,10 +6,19 @@
     <description>Recent content in Git on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Sep 2016 21:22:27 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 29 Jul 2017 00:23:08 -0500</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/categories/git/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Resumen del Taller básico de Git</title>
+      <link>https://carlogilmar.github.io/post/git-resume/</link>
+      <pubDate>Sat, 29 Jul 2017 00:23:08 -0500</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/git-resume/</guid>
+      <description> Primera Parte Inicializando git y agregando usuario Primer Commit Segundo Commit Viendo diferencias y deshaciendo cambios Regresando a un commit Enviando a repositorio remoto </description>
+    </item>
     
     <item>
       <title>Git para Principiantes</title>
