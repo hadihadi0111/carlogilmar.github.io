@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM stress test | anime.js</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:title" content="anime.js">
+  <meta property="og:url" content="http://animejs.com">
+  <meta property="og:description" content="Javascript Animation Engine">
+  <meta property="og:image" content="http://animejs.com/documentation/assets/img/icons/og.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="anime.js">
+  <meta name="twitter:site" content="@juliangarnier">
+  <meta name="twitter:description" content="Javascript Animation Engine">
+  <meta name="twitter:image" content="http://animejs.com/documentation/assets/img/icons/twitter.png">
+  <link rel="apple-touch-icon-precomposed" href="../assets/img/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/icons/favicon.png" >
+  <link href="../assets/css/anime.css" rel="stylesheet">
+  <script src="../../anime.js"></script>
+  <!-- <script src="../assets/js/anime.2.0.2.js"></script> -->
+  <!-- <script src="../assets/js/anime.1.0.js"></script> -->
+  <style>
+
+    .particule {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 1em;
+      height: 1em;
+      margin: -.5em 0 0 -.5em;
+      border: .0125em solid currentColor;
+      /*background-color: currentColor;*/
+      font-size: 10px;
+      border-radius: 50%;
+      transform: scale(0);
+    }
+
+  </style>
+</head>
+<body></body>
+<script>
+
+  var maxElements = Number(location.href.split('?')[1]) || 500;
+  var duration = 2000;
+  var toAnimate = [];
+  var radius = window.innerWidth < window.innerHeight ? window.innerWidth : window.innerHeight;
+  var distance = radius / 4 <= 150 ? 150 : radius / 3; 
+  var colors = ['#FF1461', '#18FF92', '#5A87FF', '#FBF38C'];
+
+  var createElements = (function() {
+    var fragment = document.createDocumentFragment();
+    for (var i = 0; i < maxElements; i++) {
+      var el = document.createElement('div');
+      var color = Math.round((i/maxElements)*(colors.length-1));
+      el.classList.add('particule');
+      // el.style.color = colors[anime.random(0, 3)];
+      el.style.color = colors[color];
+      el.style.zIndex = i;
+      toAnimate.push(el);
+      fragment.appendChild(el);
+    }
+    document.body.appendChild(fragment);
+  })();
+
+  var animate = function(el, i) {
+    // var angle = (i * .01) * Math.PI;
+    // var angle = anime.easings['easeOutBack'](i);
+    var angle = i * 4;
+    // var delay = ((duration * 2) / maxElements) * i;
+    // var angle = i * 1000;
+    var delay = (duration / maxElements) * i * 10;
+    var a = anime({
+      targets: el,
+      translateX: [0, Math.sin(angle) * distance],
+      // translateX: [0, Math.cos(angle * i *.01) * distance],
+      translateY: [0,Math.cos(angle) * distance ],
+      // translateY: [0, Math.sin(angle * i *.01) * distance],
+      scale: [
+        {value: [0, 4], duration: duration / 2, easing: 'easeOutBack'},
+        {value: 0, duration: duration / 2, delay: duration / 4, easing: 'easeInBack'}
+      ],
+      // borderRadius: 0,
+      // opacity: 0,
+      // height: 100,
+      // width: 200,
+      // filter: 'blur(1px)',
+      rotate: 180,
+      offset : delay,
+      duration: duration,
+      easing: 'easeOutSine',
+      loop: true
+    });
+  }
+
+  toAnimate.forEach(animate);
+
+  </script>
+  <script src="../assets/js/stats.js"></script>
+</html>
