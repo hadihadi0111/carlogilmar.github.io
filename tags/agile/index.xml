@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agile on Blog de Carlo Gilmar</title>
+    <link>https://carlogilmar.github.io/tags/agile/</link>
+    <description>Recent content in Agile on Blog de Carlo Gilmar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Oct 2017 15:45:11 -0600</lastBuildDate>
+    
+	<atom:link href="https://carlogilmar.github.io/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mi Primera Clase en UPIICSA: Una breve reseña</title>
+      <link>https://carlogilmar.github.io/post/mi-primera-clase/</link>
+      <pubDate>Sat, 14 Oct 2017 15:45:11 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/mi-primera-clase/</guid>
+      <description>Mi primera clase en UPIICSA: una breve reseña Recientemente estoy cursando el último semestre de mi carrera; platicando con mi profesor de la materia de Dot Net, así es en UPIICSA tenemos una asignatura llamada así, llegamos al acuerdo de que podría tomar una clase a la semana para compartir con la clase todo lo que he aprendido como desarrollador de software.
+Era la primera vez que me dejaban una clase a la semana a mi cargo, de inmediato intenté responderme las preguntas de ¿que será útil que comparta con mis compañeros?</description>
+    </item>
+    
+  </channel>
+</rss>

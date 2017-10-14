@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carlogilmar.github.io/post/mi-primera-clase/</loc>
+    <lastmod>2017-10-14T15:45:11-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carlogilmar.github.io/post/git-resume/</loc>
     <lastmod>2017-07-29T00:23:08-05:00</lastmod>
   </url>
@@ -83,8 +88,14 @@
   </url>
   
   <url>
+    <loc>https://carlogilmar.github.io/tags/agile/</loc>
+    <lastmod>2017-10-14T15:45:11-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://carlogilmar.github.io/categories/agile/</loc>
-    <lastmod>2017-05-22T18:41:12-05:00</lastmod>
+    <lastmod>2017-10-14T15:45:11-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -96,19 +107,19 @@
   
   <url>
     <loc>https://carlogilmar.github.io/</loc>
-    <lastmod>2017-07-29T00:23:08-05:00</lastmod>
+    <lastmod>2017-10-14T15:45:11-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carlogilmar.github.io/categories/</loc>
-    <lastmod>2017-05-22T18:41:12-05:00</lastmod>
+    <lastmod>2017-10-14T15:45:11-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carlogilmar.github.io/categories/developer/</loc>
-    <lastmod>2017-07-29T00:23:08-05:00</lastmod>
+    <lastmod>2017-10-14T15:45:11-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -144,7 +155,7 @@
   
   <url>
     <loc>https://carlogilmar.github.io/post/</loc>
-    <lastmod>2017-07-29T00:23:08-05:00</lastmod>
+    <lastmod>2017-10-14T15:45:11-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -180,13 +191,13 @@
   
   <url>
     <loc>https://carlogilmar.github.io/tags/</loc>
-    <lastmod>2016-06-02T09:01:50-06:00</lastmod>
+    <lastmod>2017-10-14T15:45:11-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carlogilmar.github.io/tags/tools/</loc>
-    <lastmod>2017-01-17T22:51:32-06:00</lastmod>
+    <lastmod>2017-10-14T15:45:11-06:00</lastmod>
     <priority>0</priority>
   </url>
   

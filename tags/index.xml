@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jun 2016 09:01:50 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 14 Oct 2017 15:45:11 -0600</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Agile</title>
+      <link>https://carlogilmar.github.io/tags/agile/</link>
+      <pubDate>Sat, 14 Oct 2017 15:45:11 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/tags/agile/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Agileopen</title>
@@ -86,7 +95,7 @@
     <item>
       <title>Tools</title>
       <link>https://carlogilmar.github.io/tags/tools/</link>
-      <pubDate>Tue, 17 Jan 2017 22:51:32 -0600</pubDate>
+      <pubDate>Sat, 14 Oct 2017 15:45:11 -0600</pubDate>
       
       <guid>https://carlogilmar.github.io/tags/tools/</guid>
       <description></description>
