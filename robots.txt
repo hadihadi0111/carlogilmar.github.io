@@ -1,6 +1,0 @@
-User-agent: *
-Allow: http://carlogilmar.me/categories/developer/
-Allow: http://carlogilmar.me/categories/agile/
-Allow: http://carlogilmar.me/categories/groovy/
-
-Sitemap: http://carlogilmar.me/sitemap.xml

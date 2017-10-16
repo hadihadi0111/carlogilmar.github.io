@@ -6,10 +6,20 @@
     <description>Recent content on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Oct 2017 15:45:11 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 16 Oct 2017 14:04:47 -0500</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Charla en UNAM FES Acatlán</title>
+      <link>https://carlogilmar.github.io/post/unam-cultura/</link>
+      <pubDate>Mon, 16 Oct 2017 14:04:47 -0500</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/unam-cultura/</guid>
+      <description>Este mes de Octubre el equipo de Making Devs fue invitado a un evento en la FES Acatlán de la UNAM, donde festejaban el aniversario de la Licenciatura en Matemáticas Aplicadas y Computación. En representación del equipo asistí junto a @cggg88jorge, @vane_emily, en una charla sobre Cultura Ágil para estudiantes de los primeros semestres de esa misma carrera.
+Platicar de cultura siempre es un tema desafiante. Por lo regular al hablar de tecnología y software es de esperarse tocar temas técnicos, es por eso que resulta ser una charla interesante y curiosa.</description>
+    </item>
     
     <item>
       <title>Mi Primera Clase en UPIICSA: Una breve reseña</title>
