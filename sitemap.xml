@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carlogilmar.github.io/post/fibonacci/</loc>
+    <lastmod>2017-11-29T09:13:50-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/post/openspace/</loc>
+    <lastmod>2017-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carlogilmar.github.io/post/unam-cultura/</loc>
     <lastmod>2017-10-16T14:04:47-05:00</lastmod>
   </url>
@@ -99,13 +109,13 @@
   
   <url>
     <loc>https://carlogilmar.github.io/tags/agile/</loc>
-    <lastmod>2017-10-16T14:04:47-05:00</lastmod>
+    <lastmod>2017-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carlogilmar.github.io/categories/agile/</loc>
-    <lastmod>2017-10-16T14:04:47-05:00</lastmod>
+    <lastmod>2017-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -117,13 +127,13 @@
   
   <url>
     <loc>https://carlogilmar.github.io/</loc>
-    <lastmod>2017-10-16T14:04:47-05:00</lastmod>
+    <lastmod>2017-11-29T09:13:50-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carlogilmar.github.io/categories/</loc>
-    <lastmod>2017-10-16T14:04:47-05:00</lastmod>
+    <lastmod>2017-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -135,7 +145,7 @@
   
   <url>
     <loc>https://carlogilmar.github.io/categories/developer/</loc>
-    <lastmod>2017-10-16T14:04:47-05:00</lastmod>
+    <lastmod>2017-11-29T09:13:50-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -177,7 +187,7 @@
   
   <url>
     <loc>https://carlogilmar.github.io/post/</loc>
-    <lastmod>2017-10-16T14:04:47-05:00</lastmod>
+    <lastmod>2017-11-29T09:13:50-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -213,19 +223,19 @@
   
   <url>
     <loc>https://carlogilmar.github.io/tags/swift/</loc>
-    <lastmod>2017-09-29T00:23:08-05:00</lastmod>
+    <lastmod>2017-11-29T09:13:50-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carlogilmar.github.io/categories/swift/</loc>
-    <lastmod>2017-09-29T00:23:08-05:00</lastmod>
+    <lastmod>2017-11-29T09:13:50-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carlogilmar.github.io/tags/</loc>
-    <lastmod>2017-10-16T14:04:47-05:00</lastmod>
+    <lastmod>2017-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

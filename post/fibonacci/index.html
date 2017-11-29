@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fibonacci Sequence Review with Swift</title>
+  <meta name="description" content="Espacio para compartir conocimiento">
+  <meta name="generator" content="Hugo 0.26" />
+  <meta property="og:title" content="Fibonacci Sequence Review with Swift" />
+<meta property="og:description" content="Fibonacci Sequence With Swift 4.0 One of the firsts examples is the Fibonacci Sequence, although It’s a common programming problem, also It’s a curious problem for be solve with swift.
+This is a sequence of numbers, which start in the third element as the sum of the previous two numbers. The next number is the sum of the previous two numbers too.
+ 0, 1, (0&#43;1), (1 &#43; (0&#43;1))" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carlogilmar.github.io/post/fibonacci/" />
+
+
+
+<meta property="article:published_time" content="2017-11-29T09:13:50-06:00"/>
+<meta property="article:modified_time" content="2017-11-29T09:13:50-06:00"/>
+
+
+
+
+
+
+
+
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://carlogilmar.github.io/css/style.css" type="text/css" media="all" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/6ae929583a.js"></script>
+    <script type="text/javascript" src="https://carlogilmar.github.io/js/scripts.js"></script>
+</head>
+
+<body class="body body-right-sidebar mobile" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+	<div>
+		<header class="header" style="background-color:#1C1C1C;" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+			<div class="container container-inner clearfix">
+				<div class="logo" role="banner" itemscope="itemscope" itemtype="http://schema.org/Brand">
+					<a class="logo__link" href="https://carlogilmar.github.io/" title="Blog de Carlo Gilmar" rel="home">
+						<h1 align="center" style="font-family: 'Quicksand', sans-serif; color:#FFFFFF">Blog de Carlo Gilmar</h1>
+            
+            <h3 align="center" style="font-family: 'Quicksand', sans-serif; color:#FFFFFF">Aprendizaje compartido</h3>
+					</a>
+				</div>
+			</div>
+      <nav class="menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+
+  <h5 style="float:right; font-family: 'Quicksand', sans-serif; color:#FFFFFF; margin:10px;"> <i class="fa fa-rebel" aria-hidden="true"></i> &nbsp; ¡Bienvenido! &nbsp; &nbsp; &nbsp; Last Update: 15/Oct/2017</h5>
+
+</nav>
+
+		</header>
+		<div class="container wrapper clearfix">
+
+
+<div class="main-content content" role="main" itemprop="mainContentOfPage">
+	<article class="post">
+		<header class="post__header clearfix">
+			<h1 class="post__title">Fibonacci Sequence Review with Swift</h1>
+			<p class="post__meta meta">
+				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+				<time class="post__meta-date" datetime="2017-11-29 09:13:50 -0600 CST">November 29, 2017</time>
+				<span class="post__meta-categories meta-categories">
+					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+					<a class="meta-categories__link" href="/categories/developer" rel="category">developer</a>, <a class="meta-categories__link" href="/categories/swift" rel="category">swift</a></span>
+			</p>
+		</header>
+		<div class="post__content clearfix">
+			<figure>
+				<img style="display:block;margin-left:auto;margin-right:auto;" width="40%" src="https://carlogilmar.github.io/blog/fibonacci/cuatro.png" alt="Fibonacci Sequence Review with Swift">
+			</figure>
+      <br>
+			
+
+<h3 id="fibonacci-sequence-with-swift-4-0">Fibonacci Sequence With Swift 4.0</h3>
+
+<p>One of the firsts examples is the <strong>Fibonacci Sequence</strong>, although It’s a common programming problem, also It’s a curious problem for be solve with swift.</p>
+
+<p>This is a sequence of numbers, which start in the third element as the sum of the previous two numbers. The next number is the sum of the previous two numbers too.</p>
+
+<blockquote>
+<p>0, 1, (0+1), (1 + (0+1))</p>
+
+<p>0, 1, 1, 2, 3, 5, 8, 13</p>
+</blockquote>
+
+<h3 id="first-attempt">First Attempt</h3>
+
+<p>One of the common solutions for this problem is a recursive solution.</p>
+
+<p>This solution implement a recursive solution, if you want to know numbers less than 2, you will get the same number, but if you want to know other number more than 2, you have to start a recursive code. This is a very common solution, for example if you want to know the Fibonacci sequence for the number 4, you will <strong>call the function 9 times.</strong> Our tool for swift It’s going to help us to see this.</p>
+
+<p><img src="/blog/fibonacci/uno.png" alt="" /></p>
+
+<h3 id="using-memoization">Using Memoization</h3>
+
+<blockquote>
+<p>“Memoization is a technique in which we store the results of computational tasks when they are completed”</p>
+
+<p>KOPEC, “Classic Computer Science Problems in Swift: Essential techniques for practicing programmers MEAP V04.”, Manning, 2017.</p>
+</blockquote>
+
+<p>For this second solution we are using a Dictionary for save the firsts elements.</p>
+
+<p><img src="/blog/fibonacci/dos.png" alt="" /></p>
+
+<p>Using the number 4, if we want to know the 4th element in the sequence we only have to <strong>call the function only 3 times</strong>, because you are saving every element in the dictionary.</p>
+
+<h3 id="using-swift-for-solve-the-problem">Using swift for solve the problem</h3>
+
+<p>We have other option for find other solution.</p>
+
+<p>For example in Swift you can write this</p>
+
+<blockquote>
+<p>/<em>Pattern Matching</em>/</p>
+
+<p>let triple    = (1, 2, 3)</p>
+
+<p>let (x, y, z) = triple</p>
+</blockquote>
+
+<p>This solution is going to implement pattern matching. We have only two variables: last and next. They must be initialized with 0 and 1. So, the next step is create a loop with n times for iterate a tuple pattern matching.</p>
+
+<p><img src="/blog/fibonacci/tres.png" alt="" /></p>
+
+<p>We are using pattern matching, and we aren’t using recursive anymore. What many times are we call the same function? Instead of this, we are  call a loop.</p>
+
+<p>Of course <strong>swift</strong> language have good tools for find new and simple solutions.</p>
+
+<p>This is my first review of a part of the book <a href="https://www.manning.com/books/classic-computer-science-problems-in-swift">Classic Computer Science Problems in Swift</a>.</p>
+
+<p>Thanks for reading!</p>
+
+		</div>
+		
+<div class="post__tags tags clearfix">
+	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.73135 3.3795002q0-.5597-.39604-.9557-.39604-.3961-.95577-.3961-.55974 0-.95578.3961-.39604.396-.39604.9557 0 .5598.39604.9558.39604.3961.95578.3961.55973 0 .95577-.3961.39604-.396.39604-.9558zm11.26865 6.0832q0 .5596998-.39076.9504998l-5.18548 5.196q-.41188.3908-.9610504.3908-.55974 0-.9505-.3908l-7.5511496-7.5616998q-.40132-.3907-.68119-1.0666-.27987-.6759-.27987-1.2357v-4.3934q0-.54920004.40132-.95050004.40132-.4013.9505-.4013h4.39339q.55974 0 1.23565.2799.67591.2798 1.07723.6812l7.55115 7.54060004q.39076.4118.39076.961z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link" href="/tags/swift/" rel="tag">swift</a></li>
+	</ul>
+</div>
+
+	</article>
+	
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="@carlogilmar avatar" src="https://carlogilmar.github.io/me.jpg" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About @carlogilmar</span>
+	</div>
+	<div class="authorbox__description">
+		Desarrollador de software. Aspirante a ingeniero en informática y sociólogo. Me gusta hacer registros visuales.
+	</div>
+</div>
+	
+<nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<div class="post-nav__item post-nav__item--prev col-1-2">
+		<a class="post-nav__link" href="https://carlogilmar.github.io/post/openspace/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">#AgilesMX17 Reseña</p></a>
+	</div>
+</nav>
+
+	
+<div class="comments">
+	<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "carlogilmar-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+</div>
+
+<aside class="sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+	
+<div style="background-color:#1C1C1C;" class="widget-search widget">
+  <div style="margin:5px;">
+    <h4 align="center" style="font-family: 'Quicksand', sans-serif; color:#FFFFFF">@carlogilmar</h4><br>
+    <img src="https://avatars2.githubusercontent.com/u/17634377?v=3&u=516a44b9c2063faff245d977b3cadc91c571cfcb&s=400" width="40%" style="display:block;margin-left:auto;margin-right:auto;border-radius:150px;"/>
+    <br>
+    <p align="center" style="font-family: 'Quicksand', sans-serif; color:#FFFFFF">
+      Estudié un rato <u>Sociología en la UNAM</u>, y también <u>Ingeniería Informática en el IPN</u>.
+      Actualmente soy <u>desarrollador en Making Devs</u>.
+    </p>
+    <br>
+    <hr>
+    <br>
+    <p align="center" style="font-family: 'Quicksand', sans-serif; color:#FFFFFF">
+      I studied Sociology at UNAM, and also Computer Engineering at IPN. I am currently a developer at Making Devs.
+    </p>
+    <br>
+  </div>
+</div>
+
+	
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/fibonacci/">Fibonacci Sequence Review with Swift</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/openspace/">#AgilesMX17 Reseña</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/unam-cultura/">Charla en UNAM FES Acatlán</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/mi-primera-clase/">Mi Primera Clase en UPIICSA: Una breve reseña</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/first-ios-app/">First iOS App: Sending Messages to Slack</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/git-resume/">Resumen del Taller básico de Git</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/vertx-basic/">Develop with VertX</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/registros-graficos/">De la práctica en los Registros Visuales</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/workshop-scrum/">Workshop de Scrum en Upiicsa</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/agiledaypuebla/">Agile Day Puebla</a></li>
+		</ul>
+	</div>
+</div>
+	
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="https://carlogilmar.github.io/categories/agile">Agile</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://carlogilmar.github.io/categories/developer">Developer</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://carlogilmar.github.io/categories/git">Git</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://carlogilmar.github.io/categories/groovy">Groovy</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://carlogilmar.github.io/categories/ios">Ios</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://carlogilmar.github.io/categories/software-libre">Software-Libre</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://carlogilmar.github.io/categories/swift">Swift</a></li>
+		</ul>
+	</div>
+</div>
+	
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/agile" title="agile">agile</a>
+		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/agileopen" title="agileopen">agileopen</a>
+		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/developer" title="developer">developer</a>
+		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/git" title="git">git</a>
+		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/groovy" title="groovy">groovy</a>
+		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/linux" title="linux">linux</a>
+		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/project" title="project">project</a>
+		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/registros-gr%c3%a1ficos" title="registros-gráficos">registros-gráficos</a>
+		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/scrum" title="scrum">scrum</a>
+		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/slack" title="slack">slack</a>
+		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/swift" title="swift">swift</a>
+		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/tools" title="tools">tools</a>
+		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/vertx" title="vertx">vertx</a>
+	</div>
+</div>
+</aside>
+	</div>
+		<footer class="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+			<div class="container container-inner">
+				<p class="footer__copyright">&copy; 2017 Blog de Carlo Gilmar. Based on <a href="//wordpress.org/themes/mh-magazine-lite/" target="_blank" rel="nofollow noopener noreferrer">MH Magazine lite</a>.</p>
+			</div>
+		</footer>
+	</div>
+
+<script>
+	var navigation = responsiveNav(".menu", {
+		navClass: "menu--collapse",
+	});
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-90617617-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+</body>
+</html>

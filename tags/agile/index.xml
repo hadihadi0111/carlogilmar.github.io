@@ -6,10 +6,20 @@
     <description>Recent content in Agile on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Oct 2017 14:04:47 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 13 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/tags/agile/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#AgilesMX17 Reseña</title>
+      <link>https://carlogilmar.github.io/post/openspace/</link>
+      <pubDate>Mon, 13 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/openspace/</guid>
+      <description>El evento Tuve la oportunidad de ir a mi tercer Open Space organizado por la comunidad de Ágiles México. Esta vez me sentí muy diferente del primer Open Space del año pasado, cuando apenas comenzaba a comprender todo esto de la agilidad y el software desde la perspectiva de un alumno universitario, esta vez lo hago desde la perspectiva de un desarrollador de software.
+El Open Space es una dinámica muy propia de comunidades ágiles, y muy única, es un espacio donde los asistentes nos organizamos para crear la agenda del día con pláticas y talleres propuestos al inicio del día.</description>
+    </item>
     
     <item>
       <title>Charla en UNAM FES Acatlán</title>

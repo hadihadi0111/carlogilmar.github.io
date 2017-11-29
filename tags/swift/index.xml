@@ -6,10 +6,21 @@
     <description>Recent content in Swift on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Sep 2017 00:23:08 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 29 Nov 2017 09:13:50 -0600</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/tags/swift/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fibonacci Sequence Review with Swift</title>
+      <link>https://carlogilmar.github.io/post/fibonacci/</link>
+      <pubDate>Wed, 29 Nov 2017 09:13:50 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/fibonacci/</guid>
+      <description>Fibonacci Sequence With Swift 4.0 One of the firsts examples is the Fibonacci Sequence, although It’s a common programming problem, also It’s a curious problem for be solve with swift.
+This is a sequence of numbers, which start in the third element as the sum of the previous two numbers. The next number is the sum of the previous two numbers too.
+ 0, 1, (0+1), (1 + (0+1))</description>
+    </item>
     
     <item>
       <title>First iOS App: Sending Messages to Slack</title>
