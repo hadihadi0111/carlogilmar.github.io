@@ -14,10 +14,10 @@
     
     <item>
       <title>Develop with VertX</title>
-      <link>https://carlogilmar.github.io/blog/vertx-basic/</link>
+      <link>https://carlogilmar.github.io/post/vertx-basic/</link>
       <pubDate>Tue, 25 Jul 2017 22:54:16 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/vertx-basic/</guid>
+      <guid>https://carlogilmar.github.io/post/vertx-basic/</guid>
       <description>This was a post writted for Making Devs Blog. Recently we use the project Vertx for develop a project. Now I&amp;rsquo;m going to talk about the basic functionality.
  VertX is a tool-kit for building reactive applications on the JVM.
  It has many interesting features:

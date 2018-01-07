@@ -14,10 +14,10 @@
     
     <item>
       <title>First iOS App: Sending Messages to Slack</title>
-      <link>https://carlogilmar.github.io/blog/first-ios-app/</link>
+      <link>https://carlogilmar.github.io/post/first-ios-app/</link>
       <pubDate>Fri, 29 Sep 2017 00:23:08 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/first-ios-app/</guid>
+      <guid>https://carlogilmar.github.io/post/first-ios-app/</guid>
       <description>Hey! I have been learning how to program swift because I want to write iOS apps.
 For the first, I considered start with recognize my previous concepts in this new language for me, here is my &amp;ldquo;fizzbuzz&amp;rdquo; example:
  My guide to learn Swift and iOS are the follow videos and books:
@@ -26,10 +26,10 @@ For the first, I considered start with recognize my previous concepts in this ne
     
     <item>
       <title>How to send Slack Messages with Groovy</title>
-      <link>https://carlogilmar.github.io/blog/slack-webhook/</link>
+      <link>https://carlogilmar.github.io/post/slack-webhook/</link>
       <pubDate>Sun, 09 Oct 2016 14:04:47 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/slack-webhook/</guid>
+      <guid>https://carlogilmar.github.io/post/slack-webhook/</guid>
       <description>Recently I have been searching projects for send messages to Slack Channel, and I found many purposes, but I had choose one, and I&amp;rsquo;ll show you how to use it. It&amp;rsquo;s very easy!
  First, you have to go to your slack team, and click on &amp;ldquo;Apps &amp;amp; Integrations&amp;rdquo;.   Search and choose &amp;ldquo;Incoming WebHooks&amp;rdquo;.   Add Configuration: choose a channel, and Add Integration.   You will get a Webhook URL.</description>
     </item>

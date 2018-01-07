@@ -14,10 +14,10 @@
     
     <item>
       <title>Fibonacci Sequence Review with Swift</title>
-      <link>https://carlogilmar.github.io/blog/fibonacci/</link>
+      <link>https://carlogilmar.github.io/post/fibonacci/</link>
       <pubDate>Wed, 29 Nov 2017 09:13:50 -0600</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/fibonacci/</guid>
+      <guid>https://carlogilmar.github.io/post/fibonacci/</guid>
       <description>Fibonacci Sequence With Swift 4.0 One of the firsts examples is the Fibonacci Sequence, although It’s a common programming problem, also It’s a curious problem for be solve with swift.
 This is a sequence of numbers, which start in the third element as the sum of the previous two numbers. The next number is the sum of the previous two numbers too.
  0, 1, (0+1), (1 + (0+1))</description>
@@ -25,40 +25,40 @@ This is a sequence of numbers, which start in the third element as the sum of th
     
     <item>
       <title>#AgilesMX17 Reseña</title>
-      <link>https://carlogilmar.github.io/blog/openspace/</link>
+      <link>https://carlogilmar.github.io/post/openspace/</link>
       <pubDate>Mon, 13 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/openspace/</guid>
+      <guid>https://carlogilmar.github.io/post/openspace/</guid>
       <description>El evento Tuve la oportunidad de ir a mi tercer Open Space organizado por la comunidad de Ágiles México. Esta vez me sentí muy diferente del primer Open Space del año pasado, cuando apenas comenzaba a comprender todo esto de la agilidad y el software desde la perspectiva de un alumno universitario, esta vez lo hago desde la perspectiva de un desarrollador de software.
 El Open Space es una dinámica muy propia de comunidades ágiles, y muy única, es un espacio donde los asistentes nos organizamos para crear la agenda del día con pláticas y talleres propuestos al inicio del día.</description>
     </item>
     
     <item>
       <title>Charla en UNAM FES Acatlán</title>
-      <link>https://carlogilmar.github.io/blog/unam-cultura/</link>
+      <link>https://carlogilmar.github.io/post/unam-cultura/</link>
       <pubDate>Mon, 16 Oct 2017 14:04:47 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/unam-cultura/</guid>
+      <guid>https://carlogilmar.github.io/post/unam-cultura/</guid>
       <description>Este mes de Octubre el equipo de Making Devs fue invitado a un evento en la FES Acatlán de la UNAM, donde festejaban el aniversario de la Licenciatura en Matemáticas Aplicadas y Computación. En representación del equipo asistí junto a @cggg88jorge, @vane_emily, en una charla sobre Cultura Ágil para estudiantes de los primeros semestres de esa misma carrera.
 Platicar de cultura siempre es un tema desafiante. Por lo regular al hablar de tecnología y software es de esperarse tocar temas técnicos, es por eso que resulta ser una charla interesante y curiosa.</description>
     </item>
     
     <item>
       <title>Mi Primera Clase en UPIICSA: Una breve reseña</title>
-      <link>https://carlogilmar.github.io/blog/mi-primera-clase/</link>
+      <link>https://carlogilmar.github.io/post/mi-primera-clase/</link>
       <pubDate>Sat, 14 Oct 2017 15:45:11 -0600</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/mi-primera-clase/</guid>
+      <guid>https://carlogilmar.github.io/post/mi-primera-clase/</guid>
       <description>Mi primera clase en UPIICSA: una breve reseña Recientemente estoy cursando el último semestre de mi carrera; platicando con mi profesor de la materia de Dot Net, así es en UPIICSA tenemos una asignatura llamada así, llegamos al acuerdo de que podría tomar una clase a la semana para compartir con la clase todo lo que he aprendido como desarrollador de software.
 Era la primera vez que me dejaban una clase a la semana a mi cargo, de inmediato intenté responderme las preguntas de ¿que será útil que comparta con mis compañeros?</description>
     </item>
     
     <item>
       <title>First iOS App: Sending Messages to Slack</title>
-      <link>https://carlogilmar.github.io/blog/first-ios-app/</link>
+      <link>https://carlogilmar.github.io/post/first-ios-app/</link>
       <pubDate>Fri, 29 Sep 2017 00:23:08 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/first-ios-app/</guid>
+      <guid>https://carlogilmar.github.io/post/first-ios-app/</guid>
       <description>Hey! I have been learning how to program swift because I want to write iOS apps.
 For the first, I considered start with recognize my previous concepts in this new language for me, here is my &amp;ldquo;fizzbuzz&amp;rdquo; example:
  My guide to learn Swift and iOS are the follow videos and books:
@@ -67,19 +67,19 @@ For the first, I considered start with recognize my previous concepts in this ne
     
     <item>
       <title>Resumen del Taller básico de Git</title>
-      <link>https://carlogilmar.github.io/blog/git-resume/</link>
+      <link>https://carlogilmar.github.io/post/git-resume/</link>
       <pubDate>Sat, 29 Jul 2017 00:23:08 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/git-resume/</guid>
+      <guid>https://carlogilmar.github.io/post/git-resume/</guid>
       <description> Primera Parte Inicializando git y agregando usuario Primer Commit Segundo Commit Viendo diferencias y deshaciendo cambios Regresando a un commit Enviando a repositorio remoto </description>
     </item>
     
     <item>
       <title>Develop with VertX</title>
-      <link>https://carlogilmar.github.io/blog/vertx-basic/</link>
+      <link>https://carlogilmar.github.io/post/vertx-basic/</link>
       <pubDate>Tue, 25 Jul 2017 22:54:16 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/vertx-basic/</guid>
+      <guid>https://carlogilmar.github.io/post/vertx-basic/</guid>
       <description>This was a post writted for Making Devs Blog. Recently we use the project Vertx for develop a project. Now I&amp;rsquo;m going to talk about the basic functionality.
  VertX is a tool-kit for building reactive applications on the JVM.
  It has many interesting features:
@@ -88,30 +88,30 @@ For the first, I considered start with recognize my previous concepts in this ne
     
     <item>
       <title>De la práctica en los Registros Visuales</title>
-      <link>https://carlogilmar.github.io/blog/registros-graficos/</link>
+      <link>https://carlogilmar.github.io/post/registros-graficos/</link>
       <pubDate>Mon, 22 May 2017 18:41:12 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/registros-graficos/</guid>
+      <guid>https://carlogilmar.github.io/post/registros-graficos/</guid>
       <description>Hace poco más de un año asistí a un Meetup de la comunidad de Ágiles México. Era el segundo al que asistía , en esta ocasión el tema fue sobre Facilitación Gráfica por @fperezguajardo.
 A partir de ese momento descubrí lo importante que era para mí explorar más a fondo la creatividad por medio de dibujos, formas y colores. Siempre he sido una persona que raya libros con plumones, a la que le gusta llenar los cuadernos con rayones, claro, a pesar de no ser un gran dibujante.</description>
     </item>
     
     <item>
       <title>Workshop de Scrum en Upiicsa</title>
-      <link>https://carlogilmar.github.io/blog/workshop-scrum/</link>
+      <link>https://carlogilmar.github.io/post/workshop-scrum/</link>
       <pubDate>Sat, 13 May 2017 00:47:38 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/workshop-scrum/</guid>
+      <guid>https://carlogilmar.github.io/post/workshop-scrum/</guid>
       <description>Esta historia tiene comienzo hace unas semanas, justo cuando me convertí en un participante del curso de principios de agilidad de Making Devs impartido por @neodevelop en DS Indigo.
 Además de realizar los registros visuales del curso, fui un testigo y observardor de las dinámicas y expresiones que iban surgiendo en los participantes, actividad que en lo personal creo que es muy laboriosa, pues observar requiere de prestar atención y aprender a mirar aquellos detalles que pueden parecer poco importantes pero que revelan muchas cosas bajo una mirada más a detalle y precisa.</description>
     </item>
     
     <item>
       <title>Agile Day Puebla</title>
-      <link>https://carlogilmar.github.io/blog/agiledaypuebla/</link>
+      <link>https://carlogilmar.github.io/post/agiledaypuebla/</link>
       <pubDate>Sun, 22 Jan 2017 15:45:11 -0600</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/agiledaypuebla/</guid>
+      <guid>https://carlogilmar.github.io/post/agiledaypuebla/</guid>
       <description>Este sábado 21 de Enero sucedió el Agile Day en la Inventoteca de la ciudad de Puebla, y ahora les comparto un poco de lo que sucedió.
 El programa fue el siguiente:
 1.- Cultura ágil por José Juan R. Zuñiga
@@ -123,30 +123,30 @@ Tuve la oportunidad de participar en la primera charla dando un testimonio de c�
     
     <item>
       <title>Las herramientas básicas de un desarrollador de Software</title>
-      <link>https://carlogilmar.github.io/blog/programmer/</link>
+      <link>https://carlogilmar.github.io/post/programmer/</link>
       <pubDate>Tue, 17 Jan 2017 22:51:32 -0600</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/programmer/</guid>
+      <guid>https://carlogilmar.github.io/post/programmer/</guid>
       <description>Hace poco recordaba sobre todo lo que he aprendido el los últimos seis meses como aprendiz de programador, entre estas reflexiones pensaba sobre los elementos básicos que debía tener cualquier persona que se quisiera dedicar enserio al desarrollo profesional de software.
 Creo que el tema da para muchísimos temas, pero uno fundamental del que quiero hablar es el de las herramientas. En este momento creo que la elección de tus herramientas de trabajo definen también el ritmo de tú trabajo.</description>
     </item>
     
     <item>
       <title>How to send Slack Messages with Groovy</title>
-      <link>https://carlogilmar.github.io/blog/slack-webhook/</link>
+      <link>https://carlogilmar.github.io/post/slack-webhook/</link>
       <pubDate>Sun, 09 Oct 2016 14:04:47 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/slack-webhook/</guid>
+      <guid>https://carlogilmar.github.io/post/slack-webhook/</guid>
       <description>Recently I have been searching projects for send messages to Slack Channel, and I found many purposes, but I had choose one, and I&amp;rsquo;ll show you how to use it. It&amp;rsquo;s very easy!
  First, you have to go to your slack team, and click on &amp;ldquo;Apps &amp;amp; Integrations&amp;rdquo;.   Search and choose &amp;ldquo;Incoming WebHooks&amp;rdquo;.   Add Configuration: choose a channel, and Add Integration.   You will get a Webhook URL.</description>
     </item>
     
     <item>
       <title>Connect Vertx with MongoDB using Groovy</title>
-      <link>https://carlogilmar.github.io/blog/vertx_mongo_web/</link>
+      <link>https://carlogilmar.github.io/post/vertx_mongo_web/</link>
       <pubDate>Sun, 09 Oct 2016 12:29:51 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/vertx_mongo_web/</guid>
+      <guid>https://carlogilmar.github.io/post/vertx_mongo_web/</guid>
       <description>Create a Simple Connection With Vertx, MongoDB and Groovy  You have to install VertX 3.3.3, Groovy, and Mongo DB.
  Create a simple groovy script
  Include the next imports
@@ -155,29 +155,29 @@ Creo que el tema da para muchísimos temas, pero uno fundamental del que quiero 
     
     <item>
       <title>Git para Principiantes</title>
-      <link>https://carlogilmar.github.io/blog/git_para_principiantes/</link>
+      <link>https://carlogilmar.github.io/post/git_para_principiantes/</link>
       <pubDate>Mon, 26 Sep 2016 21:22:27 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/git_para_principiantes/</guid>
+      <guid>https://carlogilmar.github.io/post/git_para_principiantes/</guid>
       <description>Para iniciar&amp;hellip; Recientemente he descubierto el gran y amplio mundo que implica el uso de la herramienta Git para proyectos de software.
 Aún buscando entre tutoriales, y libros, el primer acercamiento es algo similar a lanzarse a un mar sin saber nadar, por ello mismo lo primero que hice fue hacer uso de la Facilitación Gráfica para poder contar con una historia que era Git y cómo funcionaba. Aquí va la primera entrega de lo que espero sean muchas.</description>
     </item>
     
     <item>
       <title>Cuando abandoné Windows, y llegué a Linux</title>
-      <link>https://carlogilmar.github.io/blog/prueba/</link>
+      <link>https://carlogilmar.github.io/post/prueba/</link>
       <pubDate>Sun, 18 Sep 2016 19:52:16 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/prueba/</guid>
+      <guid>https://carlogilmar.github.io/post/prueba/</guid>
       <description>Como llegue a Linux Es importante entender que en la vida siempre se puede escoger, y en el caso de la tecnología también. Quizá sea el hecho de que casi cualquier laptop o equipo de escritorio tengan por defecto Windows en sus muchas versiones, la paquetería de Office, el magnífico Paint y el buscaminas; y pareciera que nuestra elección se cierra a una búsqueda en Google que diga &amp;ldquo;programas gratis para Windows&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>Adiós Wordpress y Hola Hugo</title>
-      <link>https://carlogilmar.github.io/blog/hi/</link>
+      <link>https://carlogilmar.github.io/post/hi/</link>
       <pubDate>Sun, 18 Sep 2016 19:17:47 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/hi/</guid>
+      <guid>https://carlogilmar.github.io/post/hi/</guid>
       <description>Hola Mundo
 Seguramente algunos habrán entrado a mi antiguo blog en CarloGilmar.Huelum.com, y pues ahora quedó indispuesto porque hallé a alguien mejor que Wordpress: Hugo.
 Por lo que tome la decisión de migrar el blog totalmente a lo que Hugo podía brindarme, que es más que suficiente para todo aquello que quiero compartir y estaré compartiendo por medio de esta nueva plataforma.
@@ -186,20 +186,20 @@ Saludos, y mil gracias por leer.</description>
     
     <item>
       <title>Scrum Para Altos Directivos</title>
-      <link>https://carlogilmar.github.io/blog/scrumcourse/</link>
+      <link>https://carlogilmar.github.io/post/scrumcourse/</link>
       <pubDate>Mon, 18 Jul 2016 08:42:37 -0600</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/scrumcourse/</guid>
+      <guid>https://carlogilmar.github.io/post/scrumcourse/</guid>
       <description>Recientemente tuve la oportunidad de asistir a la charla de Scrum para Altos Ejecutivos y Directivos en Lymon. Ahora me toca compartir lo que aprendí a mi manera.
 SCRUM es un marco de trabajo ágil, quizá uno de los más populares, sin embargo regularmente es común hallar su ejecución en los equipos de desarrollo, no así en la parte directiva, y muy difícilmente a nivel organizacional. La pregunta más interesante es ¿cómo permear desde la zona operativa la esencia ágil de scrum hasta la parte organizacional?</description>
     </item>
     
     <item>
       <title>Agile Planet ScketchNotes Review</title>
-      <link>https://carlogilmar.github.io/blog/agileplanet/</link>
+      <link>https://carlogilmar.github.io/post/agileplanet/</link>
       <pubDate>Thu, 09 Jun 2016 08:53:18 -0600</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/agileplanet/</guid>
+      <guid>https://carlogilmar.github.io/post/agileplanet/</guid>
       <description>The idea of this Lean Book is to be a travel guide to Agile Methods, this publication is a resume of many interesting topics.
 I think It&amp;rsquo;s very helpful to have a guide like this.
 Every topic has a little resume, and a drawing like this:
@@ -209,10 +209,10 @@ I share with you my sketchnotes &amp;hellip;
     
     <item>
       <title>Mi Primer Agile Open</title>
-      <link>https://carlogilmar.github.io/blog/agileopen/</link>
+      <link>https://carlogilmar.github.io/post/agileopen/</link>
       <pubDate>Thu, 02 Jun 2016 09:01:50 -0600</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/agileopen/</guid>
+      <guid>https://carlogilmar.github.io/post/agileopen/</guid>
       <description>Este śabado tuve la oportunidad de poder participar en el Agile Open 2016 organizado por la comunidad de Ágiles México, pensaba escribir un largo y emotivo texto, pero ya que tengo tiempo libre lo intentare explicar con Facilitación Gráfica, ¡a ver que tal me sale!
 Aquí va la primera imagen&amp;hellip; ¿Qué es un Agile Open? ¿Cuáles son los principios básicos y la regla de los dos pies?
 ¡Inicia el Agile Open 2016!</description>
@@ -220,20 +220,20 @@ Aquí va la primera imagen&amp;hellip; ¿Qué es un Agile Open? ¿Cuáles son lo
     
     <item>
       <title>Mi Primer Proyecto Ágil</title>
-      <link>https://carlogilmar.github.io/blog/proyectoagil/</link>
+      <link>https://carlogilmar.github.io/post/proyectoagil/</link>
       <pubDate>Sun, 20 Mar 2016 09:04:47 -0600</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/proyectoagil/</guid>
+      <guid>https://carlogilmar.github.io/post/proyectoagil/</guid>
       <description>En una materia de mi carrera me pidieron armar un equipo y pensar en una idea a desarrollar&amp;hellip; la materia es Construcción de Base de Datos.
 Como recientemente estoy introduciéndome al mundo ágil decidí que esta era la oportunidad de empezar a vivir la agilidad. El primer reto era convencer a mis dos compañeros de equipo que aprender Metodologías Ágiles sería una forma super padre de aprender y hacer algo chido.</description>
     </item>
     
     <item>
       <title>Ponencia de Software Libre para UPIICSA</title>
-      <link>https://carlogilmar.github.io/blog/exposwlibre/</link>
+      <link>https://carlogilmar.github.io/post/exposwlibre/</link>
       <pubDate>Fri, 18 Mar 2016 09:13:50 -0600</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/exposwlibre/</guid>
+      <guid>https://carlogilmar.github.io/post/exposwlibre/</guid>
       <description>Aquí comparto una ponencia que prensenté el año pasado en Upiicsa, con apoyo de tres profesores que me cederieron sus clases, sobre el uso del Software Libre y algunas de sus bondades que podríamos usar.
 Dudas, aclaraciones, comentarios también en carlogilmar12@gmail.com
 http://www.slideshare.net/karlogilmar1/ponencia-para-ipn-upiicsa</description>

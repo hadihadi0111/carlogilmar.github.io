@@ -14,10 +14,10 @@
     
     <item>
       <title>Develop with VertX</title>
-      <link>https://carlogilmar.github.io/blog/vertx-basic/</link>
+      <link>https://carlogilmar.github.io/post/vertx-basic/</link>
       <pubDate>Tue, 25 Jul 2017 22:54:16 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/vertx-basic/</guid>
+      <guid>https://carlogilmar.github.io/post/vertx-basic/</guid>
       <description>This was a post writted for Making Devs Blog. Recently we use the project Vertx for develop a project. Now I&amp;rsquo;m going to talk about the basic functionality.
  VertX is a tool-kit for building reactive applications on the JVM.
  It has many interesting features:
@@ -26,10 +26,10 @@
     
     <item>
       <title>Connect Vertx with MongoDB using Groovy</title>
-      <link>https://carlogilmar.github.io/blog/vertx_mongo_web/</link>
+      <link>https://carlogilmar.github.io/post/vertx_mongo_web/</link>
       <pubDate>Sun, 09 Oct 2016 12:29:51 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/blog/vertx_mongo_web/</guid>
+      <guid>https://carlogilmar.github.io/post/vertx_mongo_web/</guid>
       <description>Create a Simple Connection With Vertx, MongoDB and Groovy  You have to install VertX 3.3.3, Groovy, and Mongo DB.
  Create a simple groovy script
  Include the next imports
