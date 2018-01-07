@@ -1,200 +1,477 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Git</title>
-  <meta name="description" content="Espacio para compartir conocimiento">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Blog de Carlo Gilmar</title>
+  <meta name="author" content="" />
+
+  
+  <meta name="keywords" content="devows, hugo, go">
+  
+
+  
+  <meta name="description" content="Site template made by devcows using hugo">
+  
+
   <meta name="generator" content="Hugo 0.26" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,600' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link href="https://carlogilmar.github.io/css/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="https://carlogilmar.github.io/css/style.red.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+
+  
+  <link href="https://carlogilmar.github.io/css/custom.css" rel="stylesheet">
+
+  
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+  <link rel="shortcut icon" href="https://carlogilmar.github.io/img/carlo.png" />
+  
+
+  <link href="https://carlogilmar.github.io/css/owl.carousel.css" rel="stylesheet">
+  <link href="https://carlogilmar.github.io/css/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="https://carlogilmar.github.io/index.xml" type="application/rss+xml" title="Blog de Carlo Gilmar">
+
+  
   <meta property="og:title" content="Git" />
-<meta property="og:description" content="Espacio para compartir conocimiento" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://carlogilmar.github.io/categories/git/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/categories/git//" />
+  <meta property="og:image" content="img/logo.png" />
 
-
-
-<meta property="og:updated_time" content="2017-07-29T00:23:08-05:00"/>
-
-
-
-
-
-
-
-
-
-
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-    <link rel="alternate" type="application/rss+xml" title="Blog de Carlo Gilmar Feed" href="https://carlogilmar.github.io/categories/git/index.xml">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link rel="stylesheet" href="https://carlogilmar.github.io/css/style.css" type="text/css" media="all" />
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <script src="https://use.fontawesome.com/6ae929583a.js"></script>
-    <script type="text/javascript" src="https://carlogilmar.github.io/js/scripts.js"></script>
 </head>
 
-<body class="body body-right-sidebar mobile" itemscope="itemscope" itemtype="http://schema.org/WebPage">
-	<div>
-		<header class="header" style="background-color:#1C1C1C;" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
-			<div class="container container-inner clearfix">
-				<div class="logo" role="banner" itemscope="itemscope" itemtype="http://schema.org/Brand">
-					<a class="logo__link" href="https://carlogilmar.github.io/" title="Blog de Carlo Gilmar" rel="home">
-						<h1 align="center" style="font-family: 'Quicksand', sans-serif; color:#FFFFFF">Blog de Carlo Gilmar</h1>
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="https://carlogilmar.github.io/">
+                  <h1 style="margin:5px">@carlogilmar</h1>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
             
-            <h3 align="center" style="font-family: 'Quicksand', sans-serif; color:#FFFFFF">Aprendizaje compartido</h3>
-					</a>
-				</div>
-			</div>
-      <nav class="menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 
-  <h5 style="float:right; font-family: 'Quicksand', sans-serif; color:#FFFFFF; margin:10px;"> <i class="fa fa-rebel" aria-hidden="true"></i> &nbsp; ¡Bienvenido! &nbsp; &nbsp; &nbsp; Last Update: 15/Oct/2017</h5>
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/">Home</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
 
-</nav>
+            <div class="collapse clearfix" id="search">
 
-		</header>
-		<div class="container wrapper clearfix">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
 
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
 
-	<div class="main-content loop content" role="main">
-		<header class="page-header">
-			<h1 class="page-header__title">Git</h1>
-		</header>
-		<article class="loop__item post clearfix">
-			<figure class="loop__thumbnail">
-				<a href="https://carlogilmar.github.io/post/git-resume/">
-					<img src="https://carlogilmar.github.io/blog/git/git1.jpg" alt="Resumen del Taller básico de Git" />
-				</a>
-			</figure>
-			<div class="loop__content clearfix">
-				<header class="loop__header">
-					<h3 class="loop__title post__title ">
-						<a href="https://carlogilmar.github.io/post/git-resume/" rel="bookmark">Resumen del Taller básico de Git</a>
-					</h3>
-					<div class="loop__meta meta">
-						<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-						<time class="loop__meta-date" datetime="2017-07-29 00:23:08 -0500 CDT">July 29, 2017</time>
-					</div>
-				</header>
-				<div class="loop__excerpt">
-					 Primera Parte Inicializando git y agregando usuario Primer Commit Segundo Commit Viendo diferencias y deshaciendo cambios Regresando a un commit Enviando a repositorio remoto 
-				</div>
-			</div>
-		</article>
-		<article class="loop__item post clearfix">
-			<figure class="loop__thumbnail">
-				<a href="https://carlogilmar.github.io/post/git_para_principiantes/">
-					<img src="https://carlogilmar.github.io/uno.jpg" alt="Git para Principiantes" />
-				</a>
-			</figure>
-			<div class="loop__content clearfix">
-				<header class="loop__header">
-					<h3 class="loop__title post__title ">
-						<a href="https://carlogilmar.github.io/post/git_para_principiantes/" rel="bookmark">Git para Principiantes</a>
-					</h3>
-					<div class="loop__meta meta">
-						<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-						<time class="loop__meta-date" datetime="2016-09-26 21:22:27 -0500 CDT">September 26, 2016</time>
-					</div>
-				</header>
-				<div class="loop__excerpt">
-					Para iniciar&hellip; Recientemente he descubierto el gran y amplio mundo que implica el uso de la herramienta Git para proyectos de software.
-Aún buscando entre tutoriales, y libros, el primer acercamiento es algo similar a lanzarse a un mar sin saber nadar, por ello mismo lo primero que hice fue hacer uso de la Facilitación Gráfica para poder contar con una historia que era Git y cómo funcionaba. Aquí va la primera entrega de lo que espero sean muchas.
-				</div>
-			</div>
-		</article>
+                </span>
+                    </div>
+                </form>
 
-		
-	</div>
+            </div>
+            
 
-<aside class="sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
-	
-<div style="background-color:#1C1C1C;" class="widget-search widget">
-  <div style="margin:5px;">
-    <h4 align="center" style="font-family: 'Quicksand', sans-serif; color:#FFFFFF">@carlogilmar</h4><br>
-    <img src="https://avatars2.githubusercontent.com/u/17634377?v=3&u=516a44b9c2063faff245d977b3cadc91c571cfcb&s=400" width="40%" style="display:block;margin-left:auto;margin-right:auto;border-radius:150px;"/>
-    <br>
-    <p align="center" style="font-family: 'Quicksand', sans-serif; color:#FFFFFF">
-      Estudié un rato <u>Sociología en la UNAM</u>, y también <u>Ingeniería Informática en el IPN</u>.
-      Actualmente soy <u>desarrollador en Making Devs</u>.
-    </p>
-    <br>
-    <hr>
-    <br>
-    <p align="center" style="font-family: 'Quicksand', sans-serif; color:#FFFFFF">
-      I studied Sociology at UNAM, and also Computer Engineering at IPN. I am currently a developer at Making Devs.
-    </p>
-    <br>
-  </div>
+        </div>
+    </div>
+    
+
 </div>
 
-	
-<div class="widget-recent widget">
-	<h4 class="widget__title">Recent Posts</h4>
-	<div class="widget__content">
-		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/post/fibonacci/">Fibonacci Sequence Review with Swift</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/openspace/">#AgilesMX17 Reseña</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/unam-cultura/">Charla en UNAM FES Acatlán</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/mi-primera-clase/">Mi Primera Clase en UPIICSA: Una breve reseña</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/first-ios-app/">First iOS App: Sending Messages to Slack</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/git-resume/">Resumen del Taller básico de Git</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/vertx-basic/">Develop with VertX</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/registros-graficos/">De la práctica en los Registros Visuales</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/workshop-scrum/">Workshop de Scrum en Upiicsa</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/agiledaypuebla/">Agile Day Puebla</a></li>
-		</ul>
-	</div>
-</div>
-	
-<div class="widget-categories widget">
-	<h4 class="widget__title">Categories</h4>
-	<div class="widget__content">
-		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="https://carlogilmar.github.io/categories/agile">Agile</a></li>
-			<li class="widget__item"><a class="widget__link" href="https://carlogilmar.github.io/categories/developer">Developer</a></li>
-			<li class="widget__item"><a class="widget__link" href="https://carlogilmar.github.io/categories/git">Git</a></li>
-			<li class="widget__item"><a class="widget__link" href="https://carlogilmar.github.io/categories/groovy">Groovy</a></li>
-			<li class="widget__item"><a class="widget__link" href="https://carlogilmar.github.io/categories/ios">Ios</a></li>
-			<li class="widget__item"><a class="widget__link" href="https://carlogilmar.github.io/categories/software-libre">Software-Libre</a></li>
-			<li class="widget__item"><a class="widget__link" href="https://carlogilmar.github.io/categories/swift">Swift</a></li>
-		</ul>
-	</div>
-</div>
-	
-<div class="widget-taglist widget">
-	<h4 class="widget__title">Tags</h4>
-	<div class="widget__content">
-		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/agile" title="agile">agile</a>
-		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/agileopen" title="agileopen">agileopen</a>
-		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/developer" title="developer">developer</a>
-		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/git" title="git">git</a>
-		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/groovy" title="groovy">groovy</a>
-		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/linux" title="linux">linux</a>
-		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/project" title="project">project</a>
-		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/registros-gr%c3%a1ficos" title="registros-gráficos">registros-gráficos</a>
-		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/scrum" title="scrum">scrum</a>
-		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/slack" title="slack">slack</a>
-		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/swift" title="swift">swift</a>
-		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/tools" title="tools">tools</a>
-		<a class="widget__link widget__link--taglist" href="https://carlogilmar.github.io/tags/vertx" title="vertx">vertx</a>
-	</div>
-</div>
-</aside>
-	</div>
-		<footer class="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
-			<div class="container container-inner">
-				<p class="footer__copyright">&copy; 2017 Blog de Carlo Gilmar. Based on <a href="//wordpress.org/themes/mh-magazine-lite/" target="_blank" rel="nofollow noopener noreferrer">MH Magazine lite</a>.</p>
-			</div>
-		</footer>
-	</div>
 
-<script>
-	var navigation = responsiveNav(".menu", {
-		navClass: "menu--collapse",
-	});
-</script>
+<div id="top" style="background:#F3A851"></div>
 
+
+        </header>
+
+        <div id="heading-breadcrumbs" style="background-color:#10ACC2;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <a href="https://carlogilmar.github.io//blog">
+                <h1 style="color:#FFFFFF">Blog</h1>
+              </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+                <div class="row">
+                    
+
+                    <div class="col-md-9" id="blog-listing-medium">
+
+                        
+                        
+                        <section class="post">
+                            <div class="row">
+                                <div class="col-md-4">
+                                  <div class="image">
+                                      <a href="https://carlogilmar.github.io/blog/git-resume/">
+                                          
+                                          <img src="https://carlogilmar.github.io//blog/git/git1.jpg" class="img-responsive" alt="">
+                                          
+                                      </a>
+                                  </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2><a href="https://carlogilmar.github.io/blog/git-resume/">Resumen del Taller básico de Git</a></h2>
+                                    <div class="clearfix">
+                                        <p class="author-category">
+                                          
+                                          
+                                          
+                                          in <a href="https://carlogilmar.github.io/categories/developer">developer</a>
+                                          
+                                          
+
+                                        </p>
+                                        <p class="date-comments">
+                                            <a href="https://carlogilmar.github.io/blog/git-resume/"><i class="fa fa-calendar-o"></i> July 29, 2017</a>
+                                        </p>
+                                    </div>
+                                    <p class="intro"> Primera Parte Inicializando git y agregando usuario Primer Commit Segundo Commit Viendo diferencias y deshaciendo cambios Regresando a un commit Enviando a repositorio remoto </p>
+                                    <p class="read-more"><a href="https://carlogilmar.github.io/blog/git-resume/" class="btn btn-template-main">Continue reading</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                        
+                        <section class="post">
+                            <div class="row">
+                                <div class="col-md-4">
+                                  <div class="image">
+                                      <a href="https://carlogilmar.github.io/blog/git_para_principiantes/">
+                                          
+                                          <img src="https://carlogilmar.github.io/uno.jpg" class="img-responsive" alt="">
+                                          
+                                      </a>
+                                  </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2><a href="https://carlogilmar.github.io/blog/git_para_principiantes/">Git para Principiantes</a></h2>
+                                    <div class="clearfix">
+                                        <p class="author-category">
+                                          
+                                          
+                                          
+                                          in <a href="https://carlogilmar.github.io/categories/git">Git</a>
+                                          
+                                          
+
+                                        </p>
+                                        <p class="date-comments">
+                                            <a href="https://carlogilmar.github.io/blog/git_para_principiantes/"><i class="fa fa-calendar-o"></i> September 26, 2016</a>
+                                        </p>
+                                    </div>
+                                    <p class="intro">Para iniciar&hellip; Recientemente he descubierto el gran y amplio mundo que implica el uso de la herramienta Git para proyectos de software.
+Aún buscando entre tutoriales, y libros, el primer acercamiento es algo similar a lanzarse a un mar sin saber nadar, por ello mismo lo primero que hice fue hacer uso de la Facilitación Gráfica para poder contar con una historia que era Git y cómo funcionaba. Aquí va la primera entrega de lo que espero sean muchas.</p>
+                                    <p class="read-more"><a href="https://carlogilmar.github.io/blog/git_para_principiantes/" class="btn btn-template-main">Continue reading</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                        
+
+                        <ul class="pager">
+                            
+                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
+                            
+
+                            
+                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
+                            
+                        </ul>
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" results="0" class="form-control" placeholder="Search">
+                <input type="hidden" name="q" value="site:https://carlogilmar.github.io/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            <li><a href="https://carlogilmar.github.io/categories/agile">agile (9)</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/categories/developer">developer (9)</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/categories/git">git (2)</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/categories/groovy">groovy (1)</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/categories/ios">ios (1)</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/categories/software-libre">software-libre (1)</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/categories/swift">swift (2)</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+    <div class="panel-heading">
+      <h3 class="panel-title">Tags</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            <li><a href="https://carlogilmar.github.io/tags/agile"><i class="fa fa-tags"></i> agile</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/tags/agileopen"><i class="fa fa-tags"></i> agileopen</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/tags/developer"><i class="fa fa-tags"></i> developer</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/tags/git"><i class="fa fa-tags"></i> git</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/tags/groovy"><i class="fa fa-tags"></i> groovy</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/tags/linux"><i class="fa fa-tags"></i> linux</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/tags/project"><i class="fa fa-tags"></i> project</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/tags/registros-gr%c3%a1ficos"><i class="fa fa-tags"></i> registros-gráficos</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/tags/scrum"><i class="fa fa-tags"></i> scrum</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/tags/slack"><i class="fa fa-tags"></i> slack</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/tags/swift"><i class="fa fa-tags"></i> swift</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/tags/tools"><i class="fa fa-tags"></i> tools</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/tags/vertx"><i class="fa fa-tags"></i> vertx</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+            </div>
+            
+        </div>
+        
+
+        
+
+<div id="top" style="background:#F3A851"></div>
+<footer id="footer" style="background-color:#BE3145">
+    <div class="container">
+
+        
+
+        <div class="col-md-6 col-sm-6">
+
+             
+            <h4> Reciente </h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://carlogilmar.github.io/blog/fibonacci/">
+                          
+                            <img src="https://carlogilmar.github.io/blog/fibonacci/cuatro.png" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://carlogilmar.github.io/blog/fibonacci/">Fibonacci Sequence Review with Swift</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://carlogilmar.github.io/blog/openspace/">
+                          
+                            <img src="https://carlogilmar.github.io//blog/openspace/op10.png" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://carlogilmar.github.io/blog/openspace/">#AgilesMX17 Reseña</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://carlogilmar.github.io/blog/unam-cultura/">
+                          
+                            <img src="https://carlogilmar.github.io//blog/unam/fes1.png" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://carlogilmar.github.io/blog/unam-cultura/">Charla en UNAM FES Acatlán</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+             
+
+        </div>
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-left">Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</p>
+            
+            <p class="pull-right">
+              <a href="https://github.com/devcows/hugo-universal-theme"> Powered by GoHugo DevCows</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -205,5 +482,23 @@ ga('create', 'UA-90617617-1', 'auto');
 ga('send', 'pageview');
 </script>
 
-</body>
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+<script src="https://carlogilmar.github.io/js/hpneo.gmaps.js"></script>
+<script src="https://carlogilmar.github.io/js/gmaps.init.js"></script>
+<script src="https://carlogilmar.github.io/js/front.js"></script>
+
+
+<script src="https://carlogilmar.github.io/js/owl.carousel.min.js"></script>
+
+
+  </body>
 </html>

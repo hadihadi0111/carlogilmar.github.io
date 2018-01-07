@@ -6,6 +6,7 @@
     <description>Recent content in Git on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</copyright>
     <lastBuildDate>Sat, 29 Jul 2017 00:23:08 -0500</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/categories/git/index.xml" rel="self" type="application/rss+xml" />
@@ -13,19 +14,19 @@
     
     <item>
       <title>Resumen del Taller básico de Git</title>
-      <link>https://carlogilmar.github.io/post/git-resume/</link>
+      <link>https://carlogilmar.github.io/blog/git-resume/</link>
       <pubDate>Sat, 29 Jul 2017 00:23:08 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/post/git-resume/</guid>
+      <guid>https://carlogilmar.github.io/blog/git-resume/</guid>
       <description> Primera Parte Inicializando git y agregando usuario Primer Commit Segundo Commit Viendo diferencias y deshaciendo cambios Regresando a un commit Enviando a repositorio remoto </description>
     </item>
     
     <item>
       <title>Git para Principiantes</title>
-      <link>https://carlogilmar.github.io/post/git_para_principiantes/</link>
+      <link>https://carlogilmar.github.io/blog/git_para_principiantes/</link>
       <pubDate>Mon, 26 Sep 2016 21:22:27 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/post/git_para_principiantes/</guid>
+      <guid>https://carlogilmar.github.io/blog/git_para_principiantes/</guid>
       <description>Para iniciar&amp;hellip; Recientemente he descubierto el gran y amplio mundo que implica el uso de la herramienta Git para proyectos de software.
 Aún buscando entre tutoriales, y libros, el primer acercamiento es algo similar a lanzarse a un mar sin saber nadar, por ello mismo lo primero que hice fue hacer uso de la Facilitación Gráfica para poder contar con una historia que era Git y cómo funcionaba. Aquí va la primera entrega de lo que espero sean muchas.</description>
     </item>

@@ -6,6 +6,7 @@
     <description>Recent content in Ios on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</copyright>
     <lastBuildDate>Fri, 29 Sep 2017 00:23:08 -0500</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/categories/ios/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +14,10 @@
     
     <item>
       <title>First iOS App: Sending Messages to Slack</title>
-      <link>https://carlogilmar.github.io/post/first-ios-app/</link>
+      <link>https://carlogilmar.github.io/blog/first-ios-app/</link>
       <pubDate>Fri, 29 Sep 2017 00:23:08 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/post/first-ios-app/</guid>
+      <guid>https://carlogilmar.github.io/blog/first-ios-app/</guid>
       <description>Hey! I have been learning how to program swift because I want to write iOS apps.
 For the first, I considered start with recognize my previous concepts in this new language for me, here is my &amp;ldquo;fizzbuzz&amp;rdquo; example:
  My guide to learn Swift and iOS are the follow videos and books:

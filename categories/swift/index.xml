@@ -6,6 +6,7 @@
     <description>Recent content in Swift on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</copyright>
     <lastBuildDate>Wed, 29 Nov 2017 09:13:50 -0600</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/categories/swift/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +14,10 @@
     
     <item>
       <title>Fibonacci Sequence Review with Swift</title>
-      <link>https://carlogilmar.github.io/post/fibonacci/</link>
+      <link>https://carlogilmar.github.io/blog/fibonacci/</link>
       <pubDate>Wed, 29 Nov 2017 09:13:50 -0600</pubDate>
       
-      <guid>https://carlogilmar.github.io/post/fibonacci/</guid>
+      <guid>https://carlogilmar.github.io/blog/fibonacci/</guid>
       <description>Fibonacci Sequence With Swift 4.0 One of the firsts examples is the Fibonacci Sequence, although It’s a common programming problem, also It’s a curious problem for be solve with swift.
 This is a sequence of numbers, which start in the third element as the sum of the previous two numbers. The next number is the sum of the previous two numbers too.
  0, 1, (0+1), (1 + (0+1))</description>
@@ -24,10 +25,10 @@ This is a sequence of numbers, which start in the third element as the sum of th
     
     <item>
       <title>First iOS App: Sending Messages to Slack</title>
-      <link>https://carlogilmar.github.io/post/first-ios-app/</link>
+      <link>https://carlogilmar.github.io/blog/first-ios-app/</link>
       <pubDate>Fri, 29 Sep 2017 00:23:08 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/post/first-ios-app/</guid>
+      <guid>https://carlogilmar.github.io/blog/first-ios-app/</guid>
       <description>Hey! I have been learning how to program swift because I want to write iOS apps.
 For the first, I considered start with recognize my previous concepts in this new language for me, here is my &amp;ldquo;fizzbuzz&amp;rdquo; example:
  My guide to learn Swift and iOS are the follow videos and books:

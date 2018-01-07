@@ -6,6 +6,7 @@
     <description>Recent content in Agileopen on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</copyright>
     <lastBuildDate>Thu, 02 Jun 2016 09:01:50 -0600</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/tags/agileopen/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +14,10 @@
     
     <item>
       <title>Mi Primer Agile Open</title>
-      <link>https://carlogilmar.github.io/post/agileopen/</link>
+      <link>https://carlogilmar.github.io/blog/agileopen/</link>
       <pubDate>Thu, 02 Jun 2016 09:01:50 -0600</pubDate>
       
-      <guid>https://carlogilmar.github.io/post/agileopen/</guid>
+      <guid>https://carlogilmar.github.io/blog/agileopen/</guid>
       <description>Este śabado tuve la oportunidad de poder participar en el Agile Open 2016 organizado por la comunidad de Ágiles México, pensaba escribir un largo y emotivo texto, pero ya que tengo tiempo libre lo intentare explicar con Facilitación Gráfica, ¡a ver que tal me sale!
 Aquí va la primera imagen&amp;hellip; ¿Qué es un Agile Open? ¿Cuáles son los principios básicos y la regla de los dos pies?
 ¡Inicia el Agile Open 2016!</description>

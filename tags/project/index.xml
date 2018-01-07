@@ -6,6 +6,7 @@
     <description>Recent content in Project on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</copyright>
     <lastBuildDate>Sun, 20 Mar 2016 09:04:47 -0600</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/tags/project/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +14,10 @@
     
     <item>
       <title>Mi Primer Proyecto Ágil</title>
-      <link>https://carlogilmar.github.io/post/proyectoagil/</link>
+      <link>https://carlogilmar.github.io/blog/proyectoagil/</link>
       <pubDate>Sun, 20 Mar 2016 09:04:47 -0600</pubDate>
       
-      <guid>https://carlogilmar.github.io/post/proyectoagil/</guid>
+      <guid>https://carlogilmar.github.io/blog/proyectoagil/</guid>
       <description>En una materia de mi carrera me pidieron armar un equipo y pensar en una idea a desarrollar&amp;hellip; la materia es Construcción de Base de Datos.
 Como recientemente estoy introduciéndome al mundo ágil decidí que esta era la oportunidad de empezar a vivir la agilidad. El primer reto era convencer a mis dos compañeros de equipo que aprender Metodologías Ágiles sería una forma super padre de aprender y hacer algo chido.</description>
     </item>

@@ -6,6 +6,7 @@
     <description>Recent content in Linux on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</copyright>
     <lastBuildDate>Sun, 18 Sep 2016 19:52:16 -0500</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +14,10 @@
     
     <item>
       <title>Cuando abandoné Windows, y llegué a Linux</title>
-      <link>https://carlogilmar.github.io/post/prueba/</link>
+      <link>https://carlogilmar.github.io/blog/prueba/</link>
       <pubDate>Sun, 18 Sep 2016 19:52:16 -0500</pubDate>
       
-      <guid>https://carlogilmar.github.io/post/prueba/</guid>
+      <guid>https://carlogilmar.github.io/blog/prueba/</guid>
       <description>Como llegue a Linux Es importante entender que en la vida siempre se puede escoger, y en el caso de la tecnología también. Quizá sea el hecho de que casi cualquier laptop o equipo de escritorio tengan por defecto Windows en sus muchas versiones, la paquetería de Office, el magnífico Paint y el buscaminas; y pareciera que nuestra elección se cierra a una búsqueda en Google que diga &amp;ldquo;programas gratis para Windows&amp;rdquo;.</description>
     </item>
     
