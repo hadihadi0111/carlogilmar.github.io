@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ember on Blog de Carlo Gilmar</title>
+    <link>https://carlogilmar.github.io/tags/ember/</link>
+    <description>Recent content in Ember on Blog de Carlo Gilmar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 15 Feb 2018 09:13:50 -0600</lastBuildDate>
+    
+	<atom:link href="https://carlogilmar.github.io/tags/ember/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello Ember Js</title>
+      <link>https://carlogilmar.github.io/post/emberjs/</link>
+      <pubDate>Thu, 15 Feb 2018 09:13:50 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/emberjs/</guid>
+      <description>This is my first post in this year.
+Recently we have to develop a project about teacher training for a private university in Mexico City.
+There are a lot of javascript frameworks and transpilers: Angular JS, Vue JS, Meteor, Aurelia JS, React JS, Ionic JS, Typescript, CoffeeScript, Elm, etc. We decided learn and use Ember JS for develop our frontend, and Spring/Groovy for the backend.
+About Ember Js  Ember is a JavaScript front-end framework designed to help you build websites with rich and complex user interactions.</description>
+    </item>
+    
+  </channel>
+</rss>

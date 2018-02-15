@@ -10,11 +10,11 @@
   <meta name="author" content="" />
 
   
-  <meta name="keywords" content="devows, hugo, go">
+  <meta name="keywords" content="carlogilmar">
   
 
   
-  <meta name="description" content="Site template made by devcows using hugo">
+  <meta name="description" content="Espacio para compartir las experiencias y aprendizajes en el desarrollo de software.">
   
 
   <meta name="generator" content="Hugo 0.26" />
@@ -56,9 +56,9 @@
   <link rel="alternate" href="https://carlogilmar.github.io/index.xml" type="application/rss+xml" title="Blog de Carlo Gilmar">
 
   
-  <meta property="og:title" content="Git para Principiantes" />
+  <meta property="og:title" content="Hello Ember Js" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/blog/git_para_principiantes//" />
+  <meta property="og:url" content="/post/emberjs//" />
   <meta property="og:image" content="img/logo.png" />
 
 </head>
@@ -151,99 +151,144 @@
 
                     <div class="col-md-9" id="blog-post">
 
-                        <p class="text-muted text-uppercase mb-small text-right">September 26, 2016</p>
+                        <p class="text-muted text-uppercase mb-small text-right">February 15, 2018</p>
 
-                        <h2 class="text-center"> Git para Principiantes </h2>
+                        <h2 class="text-center"> Hello Ember Js </h2>
 
                         <div id="post-content">
                           
 
-<hr />
+<p><img src="/blog/ember/ember1.png" alt="" /></p>
 
-<h1 id="para-iniciar">Para iniciar&hellip;</h1>
+<p>This is my first post in this year.</p>
 
-<p>Recientemente he descubierto el gran y amplio mundo que implica el uso de la herramienta Git para proyectos de software.</p>
+<p>Recently we have to develop a project about teacher training for a private university in Mexico City.</p>
 
-<p>Aún buscando entre tutoriales, y libros, el primer acercamiento es algo similar a lanzarse a un mar sin saber nadar, por ello mismo lo primero que hice fue hacer uso de la Facilitación Gráfica para poder contar con una historia que era Git y cómo funcionaba. Aquí va la primera entrega de lo que espero sean muchas.</p>
+<p>There are a lot of javascript frameworks and transpilers:   Angular JS, Vue JS, Meteor, Aurelia JS, React JS, Ionic JS, Typescript, CoffeeScript, Elm, etc. We decided learn and use <strong>Ember JS</strong> for develop our frontend, and <strong>Spring/Groovy</strong> for the backend.</p>
 
-<p>Este querido amigo nos servirá para monitorear los archivos de un proyecto, y así controlar las versiones y avances.</p>
+<h5 id="about-ember-js">About Ember Js</h5>
 
-<p>Les presento al R2D2-Git y las funciones básicas para tenerlo funcionando en un proyecto.</p>
+<blockquote>
+<p>Ember is a JavaScript front-end framework designed to help you build websites with rich and complex user interactions. It does so by providing developers both with many features that are essential to manage complexity in modern web applications, as well as an integrated development toolkit that enables rapid iteration.</p>
+</blockquote>
 
-<p><img src="/uno.jpg" alt="Hola Git" /></p>
+<p>Until now, I had has a little experience using <strong>Coffee Script</strong> and I could test a little of Angular. But now I’m in love with Ember, because I found more useful and interesting for build frontend apps, and their standards and conventions are so cool. <strong>In this post I’going to explore the basics about ember. And then I will release many post about more content.</strong></p>
 
-<p>Git se ejecuta dentro de la carpeta principal de nuestro proyecto y reconoce TODO lo qué hay dentro.</p>
+<h2 id="philosophy">Philosophy</h2>
 
-<p><img src="/dos.jpg" alt="Git init" /></p>
+<ul>
+<li><p>Write less code</p></li>
 
-<p>Entonces, a partir de ese momento ya no estarás solo en el desarrollo del proyecto, porque Git estará para apoyarte.</p>
+<li><p>Use web standards and common idioms</p></li>
 
-<p>Git verá todos los archivos, pero es necesario indicarle los archivos que deseamos versionar.</p>
+<li><p>Built for productivity and ergonomics</p></li>
 
-<p>Veamos como ir usando Git poco a poco.</p>
+<li><p>Constantly growing and improving</p></li>
 
-<hr />
+<li><p>Friendly API</p></li>
+</ul>
 
-<h1 id="estado-de-los-archivos-que-monitorea-git">ESTADO DE LOS ARCHIVOS QUE MONITOREA GIT</h1>
+<h2 id="build-with-ember-is-like-this">Build with Ember is like this&hellip;</h2>
 
-<p>Primero debemos preguntarle qué ve en nuestro proyecto el pequeño amigo Git, el hablara con la verdad y dirá cada archivo qué hay que no este monitoreando.</p>
+<h4 id="you-have-a-complete-blank-canvas-for-build-your-frontend-app">You have a complete blank canvas for build your frontend app</h4>
 
-<p><img src="/tres.jpg" alt="Status" /></p>
+<p><img src="/blog/ember/ember2.png" alt="" /></p>
 
-<hr />
+<h4 id="add-few-routes-and-templates">&hellip; add few routes and templates&hellip;</h4>
 
-<h1 id="dile-a-git-donde-poner-el-ojo">DILE A GIT DONDE PONER EL OJO</h1>
+<p><img src="/blog/ember/ember3.png" alt="" /></p>
 
-<p>Una vez que sabemos el estado de aquello que no está monitoreando, podemos indicarle a Git qué archivo debe monitorear, podemos iniciar por uno.</p>
+<h2 id="ember-core-libraries">Ember Core Libraries</h2>
 
-<p><img src="/cuatro.jpg" alt="Add" /></p>
+<p>This framework had many libraries for extend his features.</p>
 
-<p>Si volvemos a pedirle el STATUS, verás que ya no cuenta el archivo agregado.</p>
+<p>Framework Libraries:</p>
 
-<hr />
+<ul>
+<li><p><strong>Framework</strong> Ember JS</p></li>
 
-<h1 id="al-confesionario-con-git">AL CONFESIONARIO CON GIT</h1>
+<li><p><strong>Data Persistence</strong> Ember Data</p></li>
 
-<p>Una vez que Git ya está monitoreando el archivo, habrá que indicarle una descripción corta de qué es el archivo, qué se modificó, etc.</p>
+<li><p><strong>Toolchain</strong> Ember Cli</p></li>
+</ul>
 
-<p><img src="/cinco.jpg" alt="Commit" /></p>
+<p>Helper Libraries</p>
 
-<hr />
+<ul>
+<li><p><strong>Batched Queue</strong> Backburner.js</p></li>
 
-<h1 id="repetir">REPETIR</h1>
+<li><p><strong>URL Handling</strong> Route-recognizer.js</p></li>
 
-<p>Si agregamos un archivo (ADD) dentro del proyecto, y le damos un COMMIT, entonces estará siendo monitoreado por Git. Es necesario ir agregando cada archivo a Git mediante el ADD-COMMIT.</p>
+<li><p><strong>Routing</strong> Router.js</p></li>
 
-<p><img src="/siete.jpg" alt="Rutine" />
-<img src="/ocho.jpg" alt="Rutine 2" /></p>
+<li><p><strong>Promises</strong> Rsvp.js</p></li>
 
-<p>Una vez que el STATUS no muestre ningún archivo, tendremos nuestro proyecto versionado bajo la mirada y el monitor de Git.</p>
+<li><p><strong>Template Engine</strong> handlebars</p></li>
 
-<p>Si modificaramos un archivo, automáticamente el STATUS mostrará que hubo un cambio e indicará el archivo, de igual forma lo hará si se añaden nuevos archivos al proyecto.</p>
+<li><p><strong>Asset Pipeline</strong> Broccoli.js</p></li>
+</ul>
 
-<p><img src="/seis.jpg" alt="Diff" /></p>
+<h2 id="ember-app-toolbox">Ember App Toolbox</h2>
 
-<p>Es posible identificar las diferencias existentes en un archivo, bastará con indicarle a git.</p>
+<p>You can install Ember with npm, and then you can create a simple app with the ember cli:</p>
 
-<p>Y finalmente aplicaremos el ADD y COMMIT para monitorearlo por Git.</p>
+<blockquote>
+<p>npm install -g ember-cli</p>
 
-<p>Notarán que Git irá diciendo que está funcionando sobre algo llamado &ldquo;Master&rdquo;, que es la rama principal, y creada por defecto, que será tema para otra entrega.</p>
+<p>ember new my-first-app</p>
+</blockquote>
 
-<h1 id="review">Review</h1>
+<p>The project structure contains the following directories:</p>
 
-<p>Comandos de esta publicación de Git</p>
+<ul>
+<li><strong>App:</strong> Application main source code</li>
+<li><strong>Config</strong> Configuration and enviroments</li>
+<li><strong>Public</strong> Assets (omg, fonts)</li>
+<li><strong>Tests</strong></li>
+<li><strong>Vendor</strong> Dependencies that aren’t manage by npm.</li>
+<li><strong>ember-cli-build</strong> How ember should build your app.</li>
+<li><strong>dist</strong> Deployable assets</li>
+</ul>
 
-<pre><code>git init //Para iniciar Git en tu proyecto
+<h2 id="anatomy-of-an-ember-app-folder">Anatomy of an Ember App Folder</h2>
 
-git status //Para ver los archivos no monitoreados
+<p>The <strong>app</strong> folder contains the main source code for build the app. This folder has the following structure:</p>
 
-git add file.sm //Indicarle a git que contemple un archivo
+<ul>
+<li><strong>app/templates</strong></li>
+<li><strong>app/routes</strong></li>
+<li><strong>app/components</strong></li>
+<li><strong>app/helpers</strong></li>
+<li><strong>app/models</strong></li>
+<li><strong>app/styles</strong></li>
+<li><strong>app/services</strong></li>
+<li><strong>app/controllers</strong></li>
+<li><strong>app/adapters</strong></li>
+<li><strong>app/serializers</strong></li>
+<li><strong>app/app.js</strong></li>
+<li><strong>app/router.js</strong></li>
+<li><strong>app/index.html</strong></li>
+</ul>
 
-git commit -m &quot;Descripcion&quot; //Indicarle una descripcion del archivo agregado anteriormente
+<h2 id="my-recommendations-for-learning">My Recommendations for Learning</h2>
 
-git diff file.sm //Git te mostrará las modificaciones
+<p>I had to search a lot of material for learn Ember Js. Although there are many resources, I recommended the following material for a beginner:</p>
 
-</code></pre>
+<h4 id="book-rock-and-roll-with-ember-js">(Book) ROCK AND ROLL WITH EMBER JS</h4>
+
+<p><a href="https://balinterdi.com/rock-and-roll-with-emberjs/">Rock and Roll with Ember.js</a> It’s a great book wrote by <a href="https://twitter.com/baaz">Balint Erdi (@baaz)</a> where you can learn how to build an app. I consider this book as the best resource for start learning Ember Js, because It contains more core concepts, and this could help you to understand easy.</p>
+
+<h4 id="book-the-pragmatic-programmers-deliver-audacious-web-apps-with-ember-2-matthew-white">(Book) The Pragmatic Programmers DELIVER AUDACIOUS WEB APPS WITH EMBER 2 Matthew White</h4>
+
+<p><a href="https://pragprog.com/book/mwjsember/deliver-audacious-web-apps-with-ember-2">Deliver Audacious Web Apps with Ember 2</a> It’s other book for start to understand the framework, although maybe you will need to know some basic concepts for understand more fast the chapters.</p>
+
+<h4 id="video-and-book-packt-pub-ember-js-solutions-and-ember-js-cookbook">(Video and Book) Packt Pub EMBER.JS SOLUTIONS and EMBER.JS COOKBOOK</h4>
+
+<p><a href="https://www.packtpub.com/web-development/emberjs-solutions-video">Ember.js Solutions</a> are videos about Ember.js, where you can watch the main concepts. I think that this is very useful when you already understand the main concepts.</p>
+
+<h4 id="course-frontend-masters-ember-2-x-mike-north">(Course) Frontend Masters EMBER 2.X Mike North</h4>
+
+<p><a href="https://frontendmasters.com/courses/ember-2/">Ember 2.x</a> it’s a complete course about Ember.js, probably is the best material for start to learn ember. I recommended this course for beginners.</p>
 
                         </div>
                         
@@ -322,7 +367,10 @@ git diff file.sm //Git te mostrará las modificaciones
             <li><a href="https://carlogilmar.github.io/categories/agile">agile (9)</a>
             </li>
             
-            <li><a href="https://carlogilmar.github.io/categories/developer">developer (9)</a>
+            <li><a href="https://carlogilmar.github.io/categories/developer">developer (10)</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/categories/ember">ember (1)</a>
             </li>
             
             <li><a href="https://carlogilmar.github.io/categories/git">git (2)</a>
@@ -332,6 +380,9 @@ git diff file.sm //Git te mostrará las modificaciones
             </li>
             
             <li><a href="https://carlogilmar.github.io/categories/ios">ios (1)</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/categories/javascript">javascript (1)</a>
             </li>
             
             <li><a href="https://carlogilmar.github.io/categories/software-libre">software-libre (1)</a>
@@ -366,6 +417,9 @@ git diff file.sm //Git te mostrará las modificaciones
             </li>
             
             <li><a href="https://carlogilmar.github.io/tags/developer"><i class="fa fa-tags"></i> developer</a>
+            </li>
+            
+            <li><a href="https://carlogilmar.github.io/tags/ember"><i class="fa fa-tags"></i> ember</a>
             </li>
             
             <li><a href="https://carlogilmar.github.io/tags/git"><i class="fa fa-tags"></i> git</a>
@@ -439,40 +493,40 @@ git diff file.sm //Git te mostrará las modificaciones
                 
                 <div class="item same-height-row clearfix">
                     <div class="image same-height-always">
-                        <a href="https://carlogilmar.github.io/blog/fibonacci/">
+                        <a href="https://carlogilmar.github.io/post/emberjs/">
+                          
+                            <img src="https://carlogilmar.github.io/blog/ember/ember1.png" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://carlogilmar.github.io/post/emberjs/">Hello Ember Js</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://carlogilmar.github.io/post/fibonacci/">
                           
                             <img src="https://carlogilmar.github.io/blog/fibonacci/cuatro.png" class="img-responsive" alt="">
                           
                         </a>
                     </div>
                     <div class="name same-height-always">
-                        <h5><a href="https://carlogilmar.github.io/blog/fibonacci/">Fibonacci Sequence Review with Swift</a></h5>
+                        <h5><a href="https://carlogilmar.github.io/post/fibonacci/">Fibonacci Sequence Review with Swift</a></h5>
                     </div>
                 </div>
                 
                 <div class="item same-height-row clearfix">
                     <div class="image same-height-always">
-                        <a href="https://carlogilmar.github.io/blog/openspace/">
+                        <a href="https://carlogilmar.github.io/post/openspace/">
                           
                             <img src="https://carlogilmar.github.io//blog/openspace/op10.png" class="img-responsive" alt="">
                           
                         </a>
                     </div>
                     <div class="name same-height-always">
-                        <h5><a href="https://carlogilmar.github.io/blog/openspace/">#AgilesMX17 Reseña</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://carlogilmar.github.io/blog/unam-cultura/">
-                          
-                            <img src="https://carlogilmar.github.io//blog/unam/fes1.png" class="img-responsive" alt="">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://carlogilmar.github.io/blog/unam-cultura/">Charla en UNAM FES Acatlán</a></h5>
+                        <h5><a href="https://carlogilmar.github.io/post/openspace/">#AgilesMX17 Reseña</a></h5>
                     </div>
                 </div>
                 

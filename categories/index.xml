@@ -24,9 +24,18 @@
     <item>
       <title>Developer</title>
       <link>https://carlogilmar.github.io/categories/developer/</link>
-      <pubDate>Wed, 29 Nov 2017 09:13:50 -0600</pubDate>
+      <pubDate>Thu, 15 Feb 2018 09:13:50 -0600</pubDate>
       
       <guid>https://carlogilmar.github.io/categories/developer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ember</title>
+      <link>https://carlogilmar.github.io/categories/ember/</link>
+      <pubDate>Thu, 15 Feb 2018 09:13:50 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/categories/ember/</guid>
       <description></description>
     </item>
     
@@ -54,6 +63,15 @@
       <pubDate>Fri, 29 Sep 2017 00:23:08 -0500</pubDate>
       
       <guid>https://carlogilmar.github.io/categories/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://carlogilmar.github.io/categories/javascript/</link>
+      <pubDate>Thu, 15 Feb 2018 09:13:50 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/categories/javascript/</guid>
       <description></description>
     </item>
     
