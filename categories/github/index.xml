@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on Blog de Carlo Gilmar</title>
+    <link>https://carlogilmar.github.io/categories/github/</link>
+    <description>Recent content in Github on Blog de Carlo Gilmar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 15 Feb 2018 09:13:50 -0600</lastBuildDate>
+    
+	<atom:link href="https://carlogilmar.github.io/categories/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Github Field Day México</title>
+      <link>https://carlogilmar.github.io/post/github/</link>
+      <pubDate>Thu, 15 Feb 2018 09:13:50 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/github/</guid>
+      <description>El sábado pasado tuve la oportunidad de asistir al primer Github Field Day en México, organizado por los Github Campus Experts locales.
+El evento trató de reunir a estudiantes y sus comunidades tecnológicas en un día dedicado a platicar debatir, intercambiar ideas, y coincidir. A pesar de que en la Ciudad de México existen muchas comunidades tecnológicas, esta fue la oportunidad de conocer las comunidades tecnológicas mayormente estudiantiles; tanto estudiantes de la UNAM, del IPN, como del Tec.</description>
+    </item>
+    
+  </channel>
+</rss>
