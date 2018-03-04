@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carlogilmar.github.io/post/elixir_first/</loc>
+    <lastmod>2018-03-03T09:13:50-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carlogilmar.github.io/post/github/</loc>
     <lastmod>2018-02-15T09:13:50-06:00</lastmod>
   </url>
@@ -118,13 +123,13 @@
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/categories/agile/</loc>
+    <loc>https://carlogilmar.github.io/tags/agile/</loc>
     <lastmod>2017-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/tags/agile/</loc>
+    <loc>https://carlogilmar.github.io/categories/agile/</loc>
     <lastmod>2017-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -137,13 +142,13 @@
   
   <url>
     <loc>https://carlogilmar.github.io/</loc>
-    <lastmod>2018-02-15T09:13:50-06:00</lastmod>
+    <lastmod>2018-03-03T09:13:50-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carlogilmar.github.io/blog/</loc>
-    <lastmod>2018-02-15T09:13:50-06:00</lastmod>
+    <lastmod>2018-03-03T09:13:50-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -154,20 +159,26 @@
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/categories/developer/</loc>
-    <lastmod>2018-02-15T09:13:50-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://carlogilmar.github.io/tags/developer/</loc>
     <lastmod>2017-09-29T00:23:08-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/categories/ember/</loc>
-    <lastmod>2018-02-15T09:13:50-06:00</lastmod>
+    <loc>https://carlogilmar.github.io/categories/developer/</loc>
+    <lastmod>2018-03-03T09:13:50-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/tags/elixir/</loc>
+    <lastmod>2018-03-03T09:13:50-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/categories/elixir/</loc>
+    <lastmod>2018-03-03T09:13:50-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -178,7 +189,7 @@
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/categories/git/</loc>
+    <loc>https://carlogilmar.github.io/categories/ember/</loc>
     <lastmod>2018-02-15T09:13:50-06:00</lastmod>
     <priority>0</priority>
   </url>
@@ -190,7 +201,7 @@
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/categories/github/</loc>
+    <loc>https://carlogilmar.github.io/categories/git/</loc>
     <lastmod>2018-02-15T09:13:50-06:00</lastmod>
     <priority>0</priority>
   </url>
@@ -202,13 +213,19 @@
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/categories/groovy/</loc>
-    <lastmod>2017-07-25T22:54:16-05:00</lastmod>
+    <loc>https://carlogilmar.github.io/categories/github/</loc>
+    <lastmod>2018-02-15T09:13:50-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carlogilmar.github.io/tags/groovy/</loc>
+    <lastmod>2017-07-25T22:54:16-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/categories/groovy/</loc>
     <lastmod>2017-07-25T22:54:16-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -262,13 +279,13 @@
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/categories/swift/</loc>
+    <loc>https://carlogilmar.github.io/tags/swift/</loc>
     <lastmod>2017-11-29T09:13:50-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carlogilmar.github.io/tags/swift/</loc>
+    <loc>https://carlogilmar.github.io/categories/swift/</loc>
     <lastmod>2017-11-29T09:13:50-06:00</lastmod>
     <priority>0</priority>
   </url>

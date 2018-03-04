@@ -6,7 +6,6 @@
     <description>Recent content in Categories on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</copyright>
     <lastBuildDate>Mon, 13 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
@@ -24,9 +23,18 @@
     <item>
       <title>Developer</title>
       <link>https://carlogilmar.github.io/categories/developer/</link>
-      <pubDate>Thu, 15 Feb 2018 09:13:50 -0600</pubDate>
+      <pubDate>Sat, 03 Mar 2018 09:13:50 -0600</pubDate>
       
       <guid>https://carlogilmar.github.io/categories/developer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elixir</title>
+      <link>https://carlogilmar.github.io/categories/elixir/</link>
+      <pubDate>Sat, 03 Mar 2018 09:13:50 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/categories/elixir/</guid>
       <description></description>
     </item>
     

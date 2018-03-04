@@ -6,11 +6,21 @@
     <description>Recent content in Developer on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 15 Feb 2018 09:13:50 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 03 Mar 2018 09:13:50 -0600</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/categories/developer/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hello Elixir!</title>
+      <link>https://carlogilmar.github.io/post/elixir_first/</link>
+      <pubDate>Sat, 03 Mar 2018 09:13:50 -0600</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/elixir_first/</guid>
+      <description>Recientemente he estado conociendo el lenguaje Elixir, un lenguaje que aprovecha la máquina virtual de Erlang, una plataforma conocida por soportar sistemas en baja latencia, sistemas distribuidos y tolerantes a fallas.
+Para familiarizarme con el lenguaje he optado por resolver algunos ejercicios, un par de ellos son el Fizz Buzz y Guess My Number.
+Fizz Buzz // My Fizzbuzz Solution in Swift for i in 1...50 { if i%5==0 &amp;amp;&amp;amp; i%3==0 { print(&amp;quot;Fizzbuzz 🍻 &amp;quot;) } else if i%5 == 0{ print(&amp;quot;Buzz&amp;quot;) } else if i%3==0{ print(&amp;quot;Fizz&amp;quot;) } else{ print(&amp;quot;\(i)&amp;quot;) } }  Normalmente suelo resolver este ejercicio con una iteración, y el siempre confiable y útil IF, sin embargo, Elixir al ser un lenguaje funcional obliga a la implementación de otra solución bajo términos funcionales, aquí el primer reto.</description>
+    </item>
     
     <item>
       <title>Github Field Day México</title>
