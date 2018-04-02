@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carlogilmar.github.io/post/phoenix-sockets/</loc>
+    <lastmod>2018-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carlogilmar.github.io/post/elixir_first/</loc>
     <lastmod>2018-03-03T09:13:50-06:00</lastmod>
   </url>
@@ -142,13 +147,13 @@
   
   <url>
     <loc>https://carlogilmar.github.io/</loc>
-    <lastmod>2018-03-03T09:13:50-06:00</lastmod>
+    <lastmod>2018-03-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carlogilmar.github.io/blog/</loc>
-    <lastmod>2018-03-03T09:13:50-06:00</lastmod>
+    <lastmod>2018-03-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -172,13 +177,13 @@
   
   <url>
     <loc>https://carlogilmar.github.io/tags/elixir/</loc>
-    <lastmod>2018-03-03T09:13:50-06:00</lastmod>
+    <lastmod>2018-03-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carlogilmar.github.io/categories/elixir/</loc>
-    <lastmod>2018-03-03T09:13:50-06:00</lastmod>
+    <lastmod>2018-03-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -245,6 +250,18 @@
   <url>
     <loc>https://carlogilmar.github.io/tags/linux/</loc>
     <lastmod>2016-09-18T19:52:16-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/tags/phoenix/</loc>
+    <lastmod>2018-03-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/categories/phoenix/</loc>
+    <lastmod>2018-03-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phoenix on Blog de Carlo Gilmar</title>
+    <link>https://carlogilmar.github.io/tags/phoenix/</link>
+    <description>Recent content in Phoenix on Blog de Carlo Gilmar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlogilmar.github.io/tags/phoenix/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Phoenix Simple App using Web Sockets</title>
+      <link>https://carlogilmar.github.io/post/phoenix-sockets/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/phoenix-sockets/</guid>
+      <description>Hi! This post is for explain how to create a simple application with Phoenix and Elixir using Web Sockets.
+Web Sockets  The Web Socket protocol based on TCP produce a bidirectional communication between client-server app, and it doesn’t need to use HTTP protocols.
+ I created a phoenix project without ecto mix phx.new sampler --no-ecto for show a simple connection using web sockets.
+Create the two-way communication For start, we have to create the communication through the web socket.</description>
+    </item>
+    
+  </channel>
+</rss>
