@@ -6,10 +6,21 @@
     <description>Recent content in Elixir on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/tags/elixir/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Process in Elixir: A Simple Example</title>
+      <link>https://carlogilmar.github.io/post/elixir-process/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/elixir-process/</guid>
+      <description>In the last days I have been learning about Process in Elixir. After doing some exercises and understand some things about it, I can explain how to create a simple example about process.
+The Process Work with process in Elixir is so common, so, it’s important know how to use it. For create a process you can use spawn (which takes a function).
+ The process structure is very simple: you have a mailbox, created within a function and by the word receive, and you can manage different messages and do something.</description>
+    </item>
     
     <item>
       <title>Phoenix Simple App using Web Sockets</title>
