@@ -6,10 +6,21 @@
     <description>Recent content on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning Ember JS</title>
+      <link>https://carlogilmar.github.io/post/learning-ember/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/learning-ember/</guid>
+      <description>Follow with learning more about Ember Js as our JS framework, I have to talk about my learning experience.
+When I was searching about Ember I found a lot of resources: posts, books, videos, courses and more. Everything looks good, until I had to start my first projects.
+Before to start  I think that is good to know the context about it. Ember JS was born as a fork from SproutCore Framework.</description>
+    </item>
     
     <item>
       <title>Process in Elixir: A Simple Example</title>

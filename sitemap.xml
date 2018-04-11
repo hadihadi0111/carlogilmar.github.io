@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carlogilmar.github.io/post/learning-ember/</loc>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carlogilmar.github.io/post/elixir-process/</loc>
     <lastmod>2018-04-02T00:00:00+00:00</lastmod>
   </url>
@@ -152,13 +157,13 @@
   
   <url>
     <loc>https://carlogilmar.github.io/</loc>
-    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carlogilmar.github.io/blog/</loc>
-    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -194,13 +199,13 @@
   
   <url>
     <loc>https://carlogilmar.github.io/tags/ember/</loc>
-    <lastmod>2018-02-15T09:13:50-06:00</lastmod>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carlogilmar.github.io/categories/ember/</loc>
-    <lastmod>2018-02-15T09:13:50-06:00</lastmod>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
