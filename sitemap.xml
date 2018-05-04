@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carlogilmar.github.io/post/ember-first/</loc>
+    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/post/effectivejenkins/</loc>
+    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carlogilmar.github.io/post/learning-ember/</loc>
     <lastmod>2018-04-11T00:00:00+00:00</lastmod>
   </url>
@@ -157,13 +167,13 @@
   
   <url>
     <loc>https://carlogilmar.github.io/</loc>
-    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carlogilmar.github.io/blog/</loc>
-    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -199,13 +209,13 @@
   
   <url>
     <loc>https://carlogilmar.github.io/tags/ember/</loc>
-    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carlogilmar.github.io/categories/ember/</loc>
-    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -258,8 +268,20 @@
   </url>
   
   <url>
+    <loc>https://carlogilmar.github.io/categories/jenkins/</loc>
+    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://carlogilmar.github.io/tags/linux/</loc>
     <lastmod>2016-09-18T19:52:16-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carlogilmar.github.io/categories/packtpub/</loc>
+    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

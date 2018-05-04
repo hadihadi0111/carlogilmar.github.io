@@ -6,10 +6,32 @@
     <description>Recent content in Ember on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/tags/ember/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ember JS First Steps</title>
+      <link>https://carlogilmar.github.io/post/ember-first/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/ember-first/</guid>
+      <description>In the last post Learning Ember I talk about how to start with Ember.
+Now, after nights studying Ember I think that learning this framework is difficult because it require think first in Ember Concepts.
+After nights studying Ember I can say that learning this framework is difficult because you have to think first in their main concepts, and if you have some experience with other frameworks or transpilers ( coffee script, typescript, elm) probably you will be confused.</description>
+    </item>
+    
+    <item>
+      <title>PacktPub Review: Effective Jenkins</title>
+      <link>https://carlogilmar.github.io/post/effectivejenkins/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/effectivejenkins/</guid>
+      <description>Recently, I reviewed a video course from Packt Publishing: “Effective Jenkins: Improving Quality in the Delivery Pipeline with Jenkins”
+ Thanks to Packt Publishing for this opportunity, and thanks to Dwayne D&amp;rsquo;Souza for the collaboration!  So, I want to talk about the content of this course.
+Before to Start This course is for people who know the basics about Jenkins. If you don’t, I would recommend learning about this from their previous courses:</description>
+    </item>
     
     <item>
       <title>Learning Ember JS</title>
