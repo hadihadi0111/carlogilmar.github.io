@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning Puppet</title>
+      <link>https://carlogilmar.github.io/post/learning-puppet/</link>
+      <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/learning-puppet/</guid>
+      <description>Learning Puppet Hi! Recently I was reviewing two courses about Jenkins, so I had to use Vagrant for configure my environment, also I used other tools as Puppet.
+In the developer day is very common configure linux servers for a lot of things: install a Jenkins, prepare the deploy environments, etc… Well, Puppet can help us to configure this servers, as a improve script shell. In this post I’m going to talk about the first steps for use Puppet.</description>
+    </item>
     
     <item>
       <title>Ember JS First Steps</title>
