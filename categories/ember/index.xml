@@ -6,10 +6,20 @@
     <description>Recent content in Ember on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/categories/ember/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ember 2018 Roadmap: A call for blog post</title>
+      <link>https://carlogilmar.github.io/post/ember-call/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/ember-call/</guid>
+      <description>This blog post is a response to Ember’s 2018 Roadmap: A Call for Blog Posts Last November 2017 I had to build an application for make exams to evaluate teachers from a popular university. In the beginning this project was considered only for one person (me), so we decide learn Ember JS for this project.
+The Beginning My previous experiences making front-end projects was using simple javascript and coffee script.</description>
+    </item>
     
     <item>
       <title>Ember JS First Steps</title>
