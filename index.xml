@@ -6,10 +6,19 @@
     <description>Recent content on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning Swift</title>
+      <link>https://carlogilmar.github.io/post/learning-swift/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/learning-swift/</guid>
+      <description>Learning Swift Recently I have been studying about Swift. I think that the learning experience is a wonderful resource for other persons who are in the same situation, so I consider valuable talk about this. First Steps When I start to learn swift I decide to watch videos and demonstrations about how to use the Xcode for build iOS apps, but, for be honest, I couldn’t understand some things: optionals, constrains, auto layout… This was my first experience.</description>
+    </item>
     
     <item>
       <title>Ember 2018 Roadmap: A call for blog post</title>

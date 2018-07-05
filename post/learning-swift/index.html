@@ -56,9 +56,9 @@
   <link rel="alternate" href="https://carlogilmar.github.io/index.xml" type="application/rss+xml" title="Blog de Carlo Gilmar">
 
   
-  <meta property="og:title" content="Blogs" />
+  <meta property="og:title" content="Learning Swift" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/blog//" />
+  <meta property="og:url" content="/post/learning-swift//" />
   <meta property="og:image" content="img/logo.png" />
 
 </head>
@@ -144,94 +144,179 @@
 
         <div id="content">
             <div class="container">
+
                 <div class="row">
+
                     
 
-                    <div class="col-md-9" id="blog-listing-medium">
+                    <div class="col-md-9" id="blog-post">
 
+                        <p class="text-muted text-uppercase mb-small text-right">July 5, 2018</p>
+
+                        <h2 class="text-center"> Learning Swift </h2>
+
+                        <div id="post-content">
+                          
+
+<h1 id="learning-swift">Learning Swift</h1>
+
+<h4 id="recently-i-have-been-studying-about-swift-i-think-that-the-learning-experience-is-a-wonderful-resource-for-other-persons-who-are-in-the-same-situation-so-i-consider-valuable-talk-about-this">Recently I have been studying about Swift. I think that the learning experience is a wonderful resource for other persons who are in the same situation, so I consider valuable talk about this.</h4>
+
+<h2 id="first-steps">First Steps</h2>
+
+<p>When I start to learn swift I decide to watch videos and demonstrations about how to use the Xcode for build iOS apps, but, for be honest, I couldn’t understand some things: optionals, constrains, auto layout… This was my first experience. So I decide start with basics.</p>
+
+<p>I considered that know and understand the language is important, and Swift is a language with a lot of features. The plan was know more about it, and then introduce me to iOS apps development.</p>
+
+<h3 id="installation">Installation</h3>
+
+<p>By default you have swift installed in you MacOs, but you can install Swift in a linux SO: <a href="https://swift.org/getting-started/#installing-swift">Installing Swift Oficial Website</a></p>
+
+<p>My first professional language is groovy, so was normal for me find some concepts in this new language. The first things that I found about swift were:</p>
+
+<ul>
+<li>Xcode for build iOS apps</li>
+<li>Playgrounds</li>
+</ul>
+
+<p>But this aren’t the only tools!</p>
+
+<h3 id="meeting-swift-in-command-line">Meeting Swift in Command Line</h3>
+
+<p>I think that use the command line is better for developer life, fortunately swift is a scripting language, and it have a REPL. I found it more useful in this part of my life instead of use only playgrounds, although this are visual and have a great visual debugger, also are slow in some cases.</p>
+
+<p>You can write some like this:</p>
+
+<pre><code>print(&quot;Hello World from this swift script! 😎&quot;)
+</code></pre>
+
+<p>Save as <code>hello.swift</code> and run with <code>swift hello.swift</code></p>
+
+<p><em>If you have a lot of warnings in your REPL, you have to configure your Xcode Command Lines. Go to Xcode &gt; Preferences &gt; Command Line Tools and select your Xcode version</em></p>
+
+<p>Also swift have a own package for build apps. Remember that swift is general-purpose programming language, so you can build web apps too using <a href="https://vapor.codes/">Vapor Swift Frameworks</a> for example.</p>
+
+<p>This package manager is useful in the command line:</p>
+
+<blockquote>
+<p>mkdir sample-app &amp;&amp; cd sample-app</p>
+
+<p>swift package init</p>
+</blockquote>
+
+<pre><code> ~/D/sample-app &gt;&gt;&gt; swift package init
+Creating library package: sample-app
+Creating Package.swift
+Creating README.md
+Creating .gitignore
+Creating Sources/
+Creating Sources/sample-app/sample_app.swift
+Creating Tests/
+Creating Tests/LinuxMain.swift
+Creating Tests/sample-appTests/
+Creating Tests/sample-appTests/sample_appTests.swift
+Creating Tests/sample-appTests/XCTestManifests.swift
+</code></pre>
+
+<p>We could make the follow things:</p>
+
+<ul>
+<li>Test this project with <code>swift package test</code></li>
+<li>Built this project with <code>swift build</code></li>
+<li>Create the Xcode project for use it <code>swift generate-xcodeproj</code></li>
+<li>Use the <a href="https://swift.org/getting-started/#using-the-lldb-debugger">LLDB Debugger</a></li>
+</ul>
+
+<h3 id="a-text-editor-for-swift">A text editor for Swift</h3>
+
+<p>You can use your own text editor! I use VIM in my day by day, and I’m in love because it’s a useful tool for me. So I decide to use it with this plugin for swift syntax <a href="https://vimawesome.com/plugin/swift-vim-red">Swift VIM Plugin</a>.</p>
+
+<h3 id="the-language">The language</h3>
+
+<p>The swift language is elegant. It’s a dynamic language, so it could be typed or inferred.  Sometimes looks like C, and you can implement some programming approaches as structured, oriented programming and functional programming, have pattern matching, protocols extensions, generics, and more features.</p>
+
+<p>I found interesting make some like this:</p>
+
+<pre><code class="language-swift">struct Student{
+    var name: String
+    var age: Int
+}
+
+struct ListOfSomething&lt;T&gt;{
+
+    var list:[T] = []
+
+    mutating func setList(elementList:[T]){
+        self.list = elementList
+    }
+
+    func countElements() -&gt; Int{
+        return self.list.count
+    }
+}
+
+// A list of students
+var student1 = Student(name: &quot;carlo&quot;, age: 20)
+var student2 = Student(name: &quot;gilmar&quot;, age: 21)
+var student3 = Student(name: &quot;carlogilmar&quot;, age: 22)
+var studentsList:[Student] = [student1, student2, student3]
+
+// A list of something of students
+var buffer = ListOfSomething&lt;Student&gt;()
+buffer.setList(elementList: studentsList)
+buffer.countElements()
+</code></pre>
+
+<h3 id="my-resources-for-learn">My Resources for learn</h3>
+
+<p>For understand this language I try to start with the basics, so I use the follow books for know more about swift:</p>
+
+<ul>
+<li><a href="https://www.packtpub.com/application-development/mastering-swift-4-fourth-edition">Mastering Swift 4</a> (Difficult:⭐️ /5, Content:⭐️⭐️⭐️⭐️/5)</li>
+<li><a href="https://www.packtpub.com/application-development/swift-data-structure-and-algorithms">Swift Data Structure and Algorithms </a> (Difficult:⭐️⭐️⭐️ /5, Content:⭐️⭐️⭐️⭐️/5)</li>
+<li><a href="https://www.manning.com/books/classic-computer-science-problems-in-swift">Classic Computer Science Problems in Swift</a> (Difficult:⭐️⭐️⭐️⭐️ /5, Content:⭐️⭐️⭐️⭐️/5)</li>
+</ul>
+
+<p>Now, I’m learning about iOS development, and I found some interesting resources:</p>
+
+<ul>
+<li><a href="https://www.letsbuildthatapp.com/">Let’s Build That App Site</a> <a href="https://twitter.com/buildthatapp">Brian Voong </a> help us to understand easily how to build an iOS application without storyboards, and talk about some tips, he have a lot of videos for learn and learn!</li>
+<li><a href="https://www.swiftbysundell.com/">Swift by Sundell Blog and Podcast</a>  <a href="https://twitter.com/johnsundell">John Sundell</a> write about swift, and he have a lot of content about testing!</li>
+<li><a href="https://learnswift.fireside.fm/">The Learn Swift Podcast</a></li>
+<li><a href="http://consultpodcast.com/">Consult Podcast</a>  <a href="https://twitter.com/davekopec">David Kopec </a> talk about interesting things about swift!</li>
+</ul>
+
+<p>This is my learning experience as beginner learning Swift. I hope to help you with start you own way of learn.</p>
+
+<h2 id="thanks-for-read-it">Thanks for read it!</h2>
+
+                        </div>
                         
                         
-                        <section class="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                  <div class="image">
-                                      <a href="https://carlogilmar.github.io/post/proyectoagil/">
-                                          
-                                          <img src="https://carlogilmar.github.io/blog/project/nueve.jpg" class="img-responsive" alt="">
-                                          
-                                      </a>
-                                  </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="https://carlogilmar.github.io/post/proyectoagil/">Mi Primer Proyecto Ágil</a></h2>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          
-                                          
-                                          
-                                          in <a href="https://carlogilmar.github.io/categories/agile">Agile</a>
-                                          
-                                          
-
-                                        </p>
-                                        <p class="date-comments">
-                                            <a href="https://carlogilmar.github.io/post/proyectoagil/"><i class="fa fa-calendar-o"></i> March 20, 2016</a>
-                                        </p>
-                                    </div>
-                                    <p class="intro">En una materia de mi carrera me pidieron armar un equipo y pensar en una idea a desarrollar&hellip; la materia es Construcción de Base de Datos.
-Como recientemente estoy introduciéndome al mundo ágil decidí que esta era la oportunidad de empezar a vivir la agilidad. El primer reto era convencer a mis dos compañeros de equipo que aprender Metodologías Ágiles sería una forma super padre de aprender y hacer algo chido.</p>
-                                    <p class="read-more"><a href="https://carlogilmar.github.io/post/proyectoagil/" class="btn btn-template-main">Continue reading</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
-                        
-                        <section class="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                  <div class="image">
-                                      <a href="https://carlogilmar.github.io/post/exposwlibre/">
-                                          
-                                          <img src="https://carlogilmar.github.io/img/placeholder.png" class="img-responsive" alt="">
-                                          
-                                      </a>
-                                  </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="https://carlogilmar.github.io/post/exposwlibre/">Ponencia de Software Libre para UPIICSA</a></h2>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          
-                                          
-                                          
-                                          in <a href="https://carlogilmar.github.io/categories/software-libre">Software-Libre</a>
-                                          
-                                          
-
-                                        </p>
-                                        <p class="date-comments">
-                                            <a href="https://carlogilmar.github.io/post/exposwlibre/"><i class="fa fa-calendar-o"></i> March 18, 2016</a>
-                                        </p>
-                                    </div>
-                                    <p class="intro">Aquí comparto una ponencia que prensenté el año pasado en Upiicsa, con apoyo de tres profesores que me cederieron sus clases, sobre el uso del Software Libre y algunas de sus bondades que podríamos usar.
-Dudas, aclaraciones, comentarios también en carlogilmar12@gmail.com
-http://www.slideshare.net/karlogilmar1/ponencia-para-ipn-upiicsa</p>
-                                    <p class="read-more"><a href="https://carlogilmar.github.io/post/exposwlibre/" class="btn btn-template-main">Continue reading</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "carlogilmar-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
                         
 
-                        <ul class="pager">
-                            
-                            <li class="previous"><a href="https://carlogilmar.github.io//blog/page/6/">&larr; Newer</a></li>
-                            
-
-                            
-                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
-                            
-                        </ul>
                     </div>
                     
 
@@ -415,6 +500,7 @@ http://www.slideshare.net/karlogilmar1/ponencia-para-ipn-upiicsa</p>
 
                 </div>
                 
+
             </div>
             
         </div>
