@@ -6,10 +6,21 @@
     <description>Recent content on Blog de Carlo Gilmar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://carlogilmar.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning IoT: First Steps with Elixir</title>
+      <link>https://carlogilmar.github.io/post/learning-iot/</link>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlogilmar.github.io/post/learning-iot/</guid>
+      <description>Recently I have the opportunity to give a conference in the Startup Week in Mexico City. So I decided talk about Internet of things, because I was learning this using an Arduino and a Raspberry Pi.
+DEMO Connect Everything! The project is create a simple web application for create distribuid music. I was inspired in the Launchpad App and the Smartphone Symphony.
+I planned make this using Phoenix Framework, and connect an Arduino for play the music.</description>
+    </item>
     
     <item>
       <title>Learning Swift</title>
